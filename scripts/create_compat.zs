@@ -35,19 +35,19 @@ blastFurnace.removeRecipe(<item:create:zinc_ingot>);
 <recipetype:create:mixing>.addRecipe("quartz_crushed_brass", "heated", <item:create:crushed_brass> * 2, [<item:create:crushed_copper_ore>, <item:minecraft:quartz>]);
 
 // Raw Ores =======================================================================================
-craftingTable.addShaped("raw_copper_compact", <item:contenttweaker:raw_copper_block>, [[<item:contenttweaker:raw_copper>, <item:contenttweaker:raw_copper>, <item:contenttweaker:raw_copper>], [<item:contenttweaker:raw_copper>, <item:contenttweaker:raw_copper>, <item:contenttweaker:raw_copper>], [<item:contenttweaker:raw_copper>, <item:contenttweaker:raw_copper>, <item:contenttweaker:raw_copper>]]);
-craftingTable.addShapeless("raw_copper_uncompact", <item:contenttweaker:raw_copper> * 9, [<item:contenttweaker:raw_copper_block>]);
-JEI.addInfo(<item:contenttweaker:raw_copper>, ["Drops from Copper Ore when mined without Silk Touch. Using Fortune increases the amount dropped."]);
+// craftingTable.addShaped("raw_copper_compact", <item:contenttweaker:raw_copper_block>, [[<item:contenttweaker:raw_copper>, <item:contenttweaker:raw_copper>, <item:contenttweaker:raw_copper>], [<item:contenttweaker:raw_copper>, <item:contenttweaker:raw_copper>, <item:contenttweaker:raw_copper>], [<item:contenttweaker:raw_copper>, <item:contenttweaker:raw_copper>, <item:contenttweaker:raw_copper>]]);
+// craftingTable.addShapeless("raw_copper_uncompact", <item:contenttweaker:raw_copper> * 9, [<item:contenttweaker:raw_copper_block>]);
+// JEI.addInfo(<item:contenttweaker:raw_copper>, ["Drops from Copper Ore when mined without Silk Touch. Using Fortune increases the amount dropped."]);
 
-furnace.addRecipe("raw_copper_smelting", <item:create:copper_ingot>, <item:contenttweaker:raw_copper>, 0.1, 200);
-blastFurnace.addRecipe("raw_copper_blasting", <item:create:copper_ingot>, <item:contenttweaker:raw_copper>, 0.1, 100);
+// furnace.addRecipe("raw_copper_smelting", <item:create:copper_ingot>, <item:contenttweaker:raw_copper>, 0.1, 200);
+// blastFurnace.addRecipe("raw_copper_blasting", <item:create:copper_ingot>, <item:contenttweaker:raw_copper>, 0.1, 100);
 
-<recipetype:create:milling>.addRecipe("raw_iron_milling", [<item:create:crushed_iron_ore>], <item:iron_and_gold:raw_iron>);
-<recipetype:create:milling>.addRecipe("raw_gold_milling", [<item:create:crushed_gold_ore>], <item:iron_and_gold:raw_gold>);
-<recipetype:create:milling>.addRecipe("raw_copper_milling", [<item:create:crushed_copper_ore>], <item:contenttweaker:raw_copper>);
-<recipetype:create:crushing>.addRecipe("raw_iron_crushing", [<item:create:crushed_iron_ore>, <item:create:crushed_iron_ore> % 30, <item:minecraft:gravel> % 6], <item:iron_and_gold:raw_iron>);
-<recipetype:create:crushing>.addRecipe("raw_gold_crushing", [<item:create:crushed_gold_ore>, <item:create:crushed_gold_ore> % 30, <item:minecraft:gravel> % 6], <item:iron_and_gold:raw_gold>);
-<recipetype:create:crushing>.addRecipe("raw_copper_crushing", [<item:create:crushed_copper_ore>, <item:create:crushed_copper_ore> % 30, <item:minecraft:gravel> % 6], <item:contenttweaker:raw_copper>);
+// <recipetype:create:milling>.addRecipe("raw_iron_milling", [<item:create:crushed_iron_ore>], <item:iron_and_gold:raw_iron>);
+// <recipetype:create:milling>.addRecipe("raw_gold_milling", [<item:create:crushed_gold_ore>], <item:iron_and_gold:raw_gold>);
+// <recipetype:create:milling>.addRecipe("raw_copper_milling", [<item:create:crushed_copper_ore>], <item:contenttweaker:raw_copper>);
+// <recipetype:create:crushing>.addRecipe("raw_iron_crushing", [<item:create:crushed_iron_ore>, <item:create:crushed_iron_ore> % 30, <item:minecraft:gravel> % 6], <item:iron_and_gold:raw_iron>);
+// <recipetype:create:crushing>.addRecipe("raw_gold_crushing", [<item:create:crushed_gold_ore>, <item:create:crushed_gold_ore> % 30, <item:minecraft:gravel> % 6], <item:iron_and_gold:raw_gold>);
+// <recipetype:create:crushing>.addRecipe("raw_copper_crushing", [<item:create:crushed_copper_ore>, <item:create:crushed_copper_ore> % 30, <item:minecraft:gravel> % 6], <item:contenttweaker:raw_copper>);
 
 // Tweaks =========================================================================================
 <recipetype:create:splashing>.removeByName("create:splashing/gravel");
@@ -62,9 +62,9 @@ blastFurnace.addRecipe("raw_copper_blasting", <item:create:copper_ingot>, <item:
 furnace.addRecipe("honey_stone", <item:buzzier_bees:crystallized_honey_block>, <item:create:limestone_cobblestone>, 0.1, 200);
 <recipetype:create:milling>.addRecipe("honey_milling", [<item:create:limesand>, <item:minecraft:honeycomb> % 50], <item:create:limestone_cobblestone>);
 <recipetype:create:crushing>.addRecipe("honey_crushing", [<item:create:limesand>, <item:minecraft:honeycomb> % 50], <item:create:limestone_cobblestone>);
-furnace.addRecipe("chocolate_stone", <item:neapolitan:chocolate_block>, <item:create:scoria_cobblestone>, 0.1, 200);
-<recipetype:create:milling>.addRecipe("chocolate_milling", [<item:minecraft:soul_sand>, <item:neapolitan:chocolate_bar> % 50], <item:create:scoria_cobblestone>);
-<recipetype:create:crushing>.addRecipe("chocolate_crushing", [<item:minecraft:soul_sand>, <item:neapolitan:chocolate_bar> % 50], <item:create:scoria_cobblestone>);
+// furnace.addRecipe("chocolate_stone", <item:neapolitan:chocolate_block>, <item:create:scoria_cobblestone>, 0.1, 200);
+// <recipetype:create:milling>.addRecipe("chocolate_milling", [<item:minecraft:soul_sand>, <item:neapolitan:chocolate_bar> % 50], <item:create:scoria_cobblestone>);
+// <recipetype:create:crushing>.addRecipe("chocolate_crushing", [<item:minecraft:soul_sand>, <item:neapolitan:chocolate_bar> % 50], <item:create:scoria_cobblestone>);
 <recipetype:create:compacting>.addRecipe("blastproof_create", "none", <item:savageandravage:blast_proof_plating>, [<item:savageandravage:creeper_spores> * 3, <item:minecraft:gold_ingot> * 2], []);
 craftingTable.removeRecipe(<item:create:mechanical_drill>);
 craftingTable.addShaped("mechanical_drill", <item:create:mechanical_drill>, [
@@ -84,44 +84,44 @@ craftingTable.addShaped("mechanical_saw", <item:create:mechanical_saw>, [
 <recipetype:create:crushing>.addRecipe("nether_gold_ore_crushing", [<item:create:crushed_gold_ore>, <item:create:crushed_gold_ore> * 2 % 30, <item:minecraft:netherrack> % 12], <item:minecraft:nether_gold_ore>);
 
 // Food and Drinks ================================================================================
-<recipetype:create:compacting>.removeRecipe(<item:create:bar_of_chocolate>);
-<recipetype:create:compacting>.addRecipe("neapolitan_chocolate_create", "none", <item:neapolitan:chocolate_bar> * 4, [], [<fluid:create:chocolate> * 250]);
+// <recipetype:create:compacting>.removeRecipe(<item:create:bar_of_chocolate>);
+// <recipetype:create:compacting>.addRecipe("neapolitan_chocolate_create", "none", <item:neapolitan:chocolate_bar> * 4, [], [<fluid:create:chocolate> * 250]);
 <recipetype:create:compacting>.addRecipe("wheat_pancake", "none", <item:autumnity:pancake>, [<item:autumnity:syrup_bottle>, <item:minecraft:egg>, <item:minecraft:wheat> * 2], [<fluid:minecraft:milk> * 250]);
 <recipetype:create:compacting>.addRecipe("flour_pancake", "none", <item:autumnity:pancake>, [<item:autumnity:syrup_bottle>, <item:minecraft:egg>, <item:create:wheat_flour> * 2], [<fluid:minecraft:milk> * 250]);
 <recipetype:create:emptying>.addRecipe("hot_cocoa_emptying", <item:minecraft:glass_bottle>, <fluid:create:chocolate> * 250, <item:farmersdelight:hot_cocoa>);
 <recipetype:create:filling>.addRecipe("hot_cocoa_filling", <item:farmersdelight:hot_cocoa>, <item:minecraft:glass_bottle>, <fluid:create:chocolate> * 250);
-<recipetype:create:emptying>.addRecipe("milk_emptying", <item:minecraft:glass_bottle>, <fluid:minecraft:milk> * 250, <item:neapolitan:milk_bottle>);
-<recipetype:create:filling>.addRecipe("milk_filling", <item:neapolitan:milk_bottle>, <item:minecraft:glass_bottle>, <fluid:minecraft:milk> * 250);
+// <recipetype:create:emptying>.addRecipe("milk_emptying", <item:minecraft:glass_bottle>, <fluid:minecraft:milk> * 250, <item:neapolitan:milk_bottle>);
+// <recipetype:create:filling>.addRecipe("milk_filling", <item:neapolitan:milk_bottle>, <item:minecraft:glass_bottle>, <fluid:minecraft:milk> * 250);
 <recipetype:create:filling>.removeByName("create:filling/honeyed_apple");
 <recipetype:create:filling>.addRecipe("buzzier_apple", <item:buzzier_bees:honey_apple>, <item:minecraft:apple>, <fluid:create:honey> * 250);
 <recipetype:create:filling>.addRecipe("buzzier_bread", <item:buzzier_bees:honey_bread>, <item:minecraft:bread>, <fluid:create:honey> * 250);
-<recipetype:create:filling>.addRecipe("buzzier_gooseberries", <item:bayou_blues:honey_glazed_gooseberries>, <item:bayou_blues:gooseberries>, <fluid:create:honey> * 250);
+// <recipetype:create:filling>.addRecipe("buzzier_gooseberries", <item:bayou_blues:honey_glazed_gooseberries>, <item:bayou_blues:gooseberries>, <fluid:create:honey> * 250);
 <recipetype:create:filling>.addRecipe("buzzier_pork", <item:buzzier_bees:glazed_porkchop>, <item:minecraft:cooked_porkchop>, <fluid:create:honey> * 250);
-<recipetype:create:mixing>.removeByName("create:mixing/chocolate");
-<recipetype:create:mixing>.addRecipe("neapolitan_chocolate", "none", <fluid:create:chocolate> * 250, [<item:minecraft:sugar>, <item:minecraft:cocoa_beans> * 2], [<fluid:minecraft:milk> * 250]);
-<recipetype:create:mixing>.addRecipe("vanilla_fudge", "none", <item:neapolitan:vanilla_fudge> * 4, [<item:minecraft:sugar>, <item:neapolitan:dried_vanilla_pods> * 2], [<fluid:minecraft:milk> * 250]);
+// <recipetype:create:mixing>.removeByName("create:mixing/chocolate");
+// <recipetype:create:mixing>.addRecipe("neapolitan_chocolate", "none", <fluid:create:chocolate> * 250, [<item:minecraft:sugar>, <item:minecraft:cocoa_beans> * 2], [<fluid:minecraft:milk> * 250]);
+// <recipetype:create:mixing>.addRecipe("vanilla_fudge", "none", <item:neapolitan:vanilla_fudge> * 4, [<item:minecraft:sugar>, <item:neapolitan:dried_vanilla_pods> * 2], [<fluid:minecraft:milk> * 250]);
 
-<recipetype:create:mixing>.addRecipe("vanilla_milkshake", "none", <item:neapolitan:vanilla_milkshake> * 4, [<item:minecraft:glass_bottle> * 4, <item:neapolitan:vanilla_ice_cream>], [<fluid:minecraft:milk> * 250]);
-<recipetype:create:mixing>.addRecipe("chocolate_milkshake_ice", "none", <item:neapolitan:chocolate_milkshake> * 4, [<item:minecraft:glass_bottle> * 4, <item:neapolitan:chocolate_bar>, <item:neapolitan:vanilla_ice_cream>], [<fluid:minecraft:milk> * 250]);
-<recipetype:create:mixing>.addRecipe("chocolate_milkshake_pod", "none", <item:neapolitan:chocolate_milkshake> * 4, [<item:minecraft:glass_bottle> * 4, <item:neapolitan:dried_vanilla_pods>, <item:neapolitan:chocolate_ice_cream>], [<fluid:minecraft:milk> * 250]);
-<recipetype:create:mixing>.addRecipe("strawberry_milkshake_ice", "none", <item:neapolitan:strawberry_milkshake> * 4, [<item:minecraft:glass_bottle> * 4, <item:neapolitan:strawberries>, <item:neapolitan:vanilla_ice_cream>], [<fluid:minecraft:milk> * 250]);
-<recipetype:create:mixing>.addRecipe("strawberry_milkshake_pod", "none", <item:neapolitan:strawberry_milkshake> * 4, [<item:minecraft:glass_bottle> * 4, <item:neapolitan:dried_vanilla_pods>, <item:neapolitan:strawberry_ice_cream>], [<fluid:minecraft:milk> * 250]);
-<recipetype:create:mixing>.addRecipe("banana_milkshake_ice", "none", <item:neapolitan:banana_milkshake> * 4, [<item:minecraft:glass_bottle> * 4, <item:neapolitan:banana>, <item:neapolitan:vanilla_ice_cream>], [<fluid:minecraft:milk> * 250]);
-<recipetype:create:mixing>.addRecipe("banana_milkshake_pod", "none", <item:neapolitan:banana_milkshake> * 4, [<item:minecraft:glass_bottle> * 4, <item:neapolitan:dried_vanilla_pods>, <item:neapolitan:banana_ice_cream>], [<fluid:minecraft:milk> * 250]);
-<recipetype:create:mixing>.addRecipe("mint_milkshake_ice", "none", <item:neapolitan:mint_milkshake> * 4, [<item:minecraft:glass_bottle> * 4, <item:neapolitan:mint_leaves>, <item:neapolitan:vanilla_ice_cream>], [<fluid:minecraft:milk> * 250]);
-<recipetype:create:mixing>.addRecipe("mint_milkshake_pod", "none", <item:neapolitan:mint_milkshake> * 4, [<item:minecraft:glass_bottle> * 4, <item:neapolitan:dried_vanilla_pods>, <item:neapolitan:mint_ice_cream>], [<fluid:minecraft:milk> * 250]);
-<recipetype:create:mixing>.addRecipe("adzuki_milkshake_ice", "none", <item:neapolitan:adzuki_milkshake> * 4, [<item:minecraft:glass_bottle> * 4, <item:neapolitan:roasted_adzuki_beans>, <item:neapolitan:vanilla_ice_cream>], [<fluid:minecraft:milk> * 250]);
-<recipetype:create:mixing>.addRecipe("adzuki_milkshake_pod", "none", <item:neapolitan:adzuki_milkshake> * 4, [<item:minecraft:glass_bottle> * 4, <item:neapolitan:dried_vanilla_pods>, <item:neapolitan:adzuki_ice_cream>], [<fluid:minecraft:milk> * 250]);
-<recipetype:create:mixing>.addRecipe("yucca_milkshake_ice", "none", <item:peculiars:yucca_milkshake> * 4, [<item:minecraft:glass_bottle> * 4, <item:atmospheric:yucca_fruit>, <item:neapolitan:vanilla_ice_cream>], [<fluid:minecraft:milk> * 250]);
-<recipetype:create:mixing>.addRecipe("yucca_milkshake_pod", "none", <item:peculiars:yucca_milkshake> * 4, [<item:minecraft:glass_bottle> * 4, <item:neapolitan:dried_vanilla_pods>, <item:peculiars:yucca_ice_cream>], [<fluid:minecraft:milk> * 250]);
-<recipetype:create:mixing>.addRecipe("aloe_milkshake_ice", "none", <item:peculiars:aloe_milkshake> * 4, [<item:minecraft:glass_bottle> * 4, <item:atmospheric:aloe_leaves>, <item:neapolitan:vanilla_ice_cream>], [<fluid:minecraft:milk> * 250]);
-<recipetype:create:mixing>.addRecipe("aloe_milkshake_pod", "none", <item:peculiars:aloe_milkshake> * 4, [<item:minecraft:glass_bottle> * 4, <item:neapolitan:dried_vanilla_pods>, <item:peculiars:aloe_ice_cream>], [<fluid:minecraft:milk> * 250]);
-<recipetype:create:mixing>.addRecipe("passionfruit_milkshake_ice", "none", <item:peculiars:passionfruit_milkshake> * 4, [<item:minecraft:glass_bottle> * 4, <item:atmospheric:passionfruit>, <item:neapolitan:vanilla_ice_cream>], [<fluid:minecraft:milk> * 250]);
-<recipetype:create:mixing>.addRecipe("passionfruit_milkshake_pod", "none", <item:peculiars:passionfruit_milkshake> * 4, [<item:minecraft:glass_bottle> * 4, <item:neapolitan:dried_vanilla_pods>, <item:peculiars:passionfruit_ice_cream>], [<fluid:minecraft:milk> * 250]);
-<recipetype:create:mixing>.addRecipe("pumpkin_milkshake_ice", "none", <item:seasonals:pumpkin_milkshake> * 4, [<item:minecraft:glass_bottle> * 4, <item:seasonals:roasted_pumpkin>, <item:neapolitan:vanilla_ice_cream>], [<fluid:minecraft:milk> * 250]);
-<recipetype:create:mixing>.addRecipe("pumpkin_milkshake_pod", "none", <item:seasonals:pumpkin_milkshake> * 4, [<item:minecraft:glass_bottle> * 4, <item:neapolitan:dried_vanilla_pods>, <item:seasonals:pumpkin_ice_cream>], [<fluid:minecraft:milk> * 250]);
-<recipetype:create:mixing>.addRecipe("sweet_berry_milkshake_ice", "none", <item:seasonals:sweet_berry_milkshake> * 4, [<item:minecraft:glass_bottle> * 4, <item:minecraft:sweet_berries>, <item:neapolitan:vanilla_ice_cream>], [<fluid:minecraft:milk> * 250]);
-<recipetype:create:mixing>.addRecipe("sweet_berry_milkshake_pod", "none", <item:seasonals:sweet_berry_milkshake> * 4, [<item:minecraft:glass_bottle> * 4, <item:neapolitan:dried_vanilla_pods>, <item:seasonals:sweet_berry_ice_cream>], [<fluid:minecraft:milk> * 250]);
+// <recipetype:create:mixing>.addRecipe("vanilla_milkshake", "none", <item:neapolitan:vanilla_milkshake> * 4, [<item:minecraft:glass_bottle> * 4, <item:neapolitan:vanilla_ice_cream>], [<fluid:minecraft:milk> * 250]);
+// <recipetype:create:mixing>.addRecipe("chocolate_milkshake_ice", "none", <item:neapolitan:chocolate_milkshake> * 4, [<item:minecraft:glass_bottle> * 4, <item:neapolitan:chocolate_bar>, <item:neapolitan:vanilla_ice_cream>], [<fluid:minecraft:milk> * 250]);
+// <recipetype:create:mixing>.addRecipe("chocolate_milkshake_pod", "none", <item:neapolitan:chocolate_milkshake> * 4, [<item:minecraft:glass_bottle> * 4, <item:neapolitan:dried_vanilla_pods>, <item:neapolitan:chocolate_ice_cream>], [<fluid:minecraft:milk> * 250]);
+// <recipetype:create:mixing>.addRecipe("strawberry_milkshake_ice", "none", <item:neapolitan:strawberry_milkshake> * 4, [<item:minecraft:glass_bottle> * 4, <item:neapolitan:strawberries>, <item:neapolitan:vanilla_ice_cream>], [<fluid:minecraft:milk> * 250]);
+// <recipetype:create:mixing>.addRecipe("strawberry_milkshake_pod", "none", <item:neapolitan:strawberry_milkshake> * 4, [<item:minecraft:glass_bottle> * 4, <item:neapolitan:dried_vanilla_pods>, <item:neapolitan:strawberry_ice_cream>], [<fluid:minecraft:milk> * 250]);
+// <recipetype:create:mixing>.addRecipe("banana_milkshake_ice", "none", <item:neapolitan:banana_milkshake> * 4, [<item:minecraft:glass_bottle> * 4, <item:neapolitan:banana>, <item:neapolitan:vanilla_ice_cream>], [<fluid:minecraft:milk> * 250]);
+// <recipetype:create:mixing>.addRecipe("banana_milkshake_pod", "none", <item:neapolitan:banana_milkshake> * 4, [<item:minecraft:glass_bottle> * 4, <item:neapolitan:dried_vanilla_pods>, <item:neapolitan:banana_ice_cream>], [<fluid:minecraft:milk> * 250]);
+// <recipetype:create:mixing>.addRecipe("mint_milkshake_ice", "none", <item:neapolitan:mint_milkshake> * 4, [<item:minecraft:glass_bottle> * 4, <item:neapolitan:mint_leaves>, <item:neapolitan:vanilla_ice_cream>], [<fluid:minecraft:milk> * 250]);
+// <recipetype:create:mixing>.addRecipe("mint_milkshake_pod", "none", <item:neapolitan:mint_milkshake> * 4, [<item:minecraft:glass_bottle> * 4, <item:neapolitan:dried_vanilla_pods>, <item:neapolitan:mint_ice_cream>], [<fluid:minecraft:milk> * 250]);
+// <recipetype:create:mixing>.addRecipe("adzuki_milkshake_ice", "none", <item:neapolitan:adzuki_milkshake> * 4, [<item:minecraft:glass_bottle> * 4, <item:neapolitan:roasted_adzuki_beans>, <item:neapolitan:vanilla_ice_cream>], [<fluid:minecraft:milk> * 250]);
+// <recipetype:create:mixing>.addRecipe("adzuki_milkshake_pod", "none", <item:neapolitan:adzuki_milkshake> * 4, [<item:minecraft:glass_bottle> * 4, <item:neapolitan:dried_vanilla_pods>, <item:neapolitan:adzuki_ice_cream>], [<fluid:minecraft:milk> * 250]);
+// <recipetype:create:mixing>.addRecipe("yucca_milkshake_ice", "none", <item:peculiars:yucca_milkshake> * 4, [<item:minecraft:glass_bottle> * 4, <item:atmospheric:yucca_fruit>, <item:neapolitan:vanilla_ice_cream>], [<fluid:minecraft:milk> * 250]);
+// <recipetype:create:mixing>.addRecipe("yucca_milkshake_pod", "none", <item:peculiars:yucca_milkshake> * 4, [<item:minecraft:glass_bottle> * 4, <item:neapolitan:dried_vanilla_pods>, <item:peculiars:yucca_ice_cream>], [<fluid:minecraft:milk> * 250]);
+// <recipetype:create:mixing>.addRecipe("aloe_milkshake_ice", "none", <item:peculiars:aloe_milkshake> * 4, [<item:minecraft:glass_bottle> * 4, <item:atmospheric:aloe_leaves>, <item:neapolitan:vanilla_ice_cream>], [<fluid:minecraft:milk> * 250]);
+// <recipetype:create:mixing>.addRecipe("aloe_milkshake_pod", "none", <item:peculiars:aloe_milkshake> * 4, [<item:minecraft:glass_bottle> * 4, <item:neapolitan:dried_vanilla_pods>, <item:peculiars:aloe_ice_cream>], [<fluid:minecraft:milk> * 250]);
+// <recipetype:create:mixing>.addRecipe("passionfruit_milkshake_ice", "none", <item:peculiars:passionfruit_milkshake> * 4, [<item:minecraft:glass_bottle> * 4, <item:atmospheric:passionfruit>, <item:neapolitan:vanilla_ice_cream>], [<fluid:minecraft:milk> * 250]);
+// <recipetype:create:mixing>.addRecipe("passionfruit_milkshake_pod", "none", <item:peculiars:passionfruit_milkshake> * 4, [<item:minecraft:glass_bottle> * 4, <item:neapolitan:dried_vanilla_pods>, <item:peculiars:passionfruit_ice_cream>], [<fluid:minecraft:milk> * 250]);
+// <recipetype:create:mixing>.addRecipe("pumpkin_milkshake_ice", "none", <item:seasonals:pumpkin_milkshake> * 4, [<item:minecraft:glass_bottle> * 4, <item:seasonals:roasted_pumpkin>, <item:neapolitan:vanilla_ice_cream>], [<fluid:minecraft:milk> * 250]);
+// <recipetype:create:mixing>.addRecipe("pumpkin_milkshake_pod", "none", <item:seasonals:pumpkin_milkshake> * 4, [<item:minecraft:glass_bottle> * 4, <item:neapolitan:dried_vanilla_pods>, <item:seasonals:pumpkin_ice_cream>], [<fluid:minecraft:milk> * 250]);
+// <recipetype:create:mixing>.addRecipe("sweet_berry_milkshake_ice", "none", <item:seasonals:sweet_berry_milkshake> * 4, [<item:minecraft:glass_bottle> * 4, <item:minecraft:sweet_berries>, <item:neapolitan:vanilla_ice_cream>], [<fluid:minecraft:milk> * 250]);
+// <recipetype:create:mixing>.addRecipe("sweet_berry_milkshake_pod", "none", <item:seasonals:sweet_berry_milkshake> * 4, [<item:minecraft:glass_bottle> * 4, <item:neapolitan:dried_vanilla_pods>, <item:seasonals:sweet_berry_ice_cream>], [<fluid:minecraft:milk> * 250]);
 
 // Feature Parity =================================================================================
 <recipetype:create:crushing>.addRecipe("red_crushing", [<item:minecraft:red_sand>], <item:minecraft:red_sandstone>);
@@ -129,16 +129,16 @@ craftingTable.addShaped("mechanical_saw", <item:create:mechanical_saw>, [
 <recipetype:create:crushing>.addRecipe("red_arid_crushing", [<item:atmospheric:red_arid_sand>], <item:atmospheric:red_arid_sandstone>);
 <recipetype:create:crushing>.addRecipe("soul_crushing", [<item:minecraft:soul_sand>], <item:quark:soul_sandstone>);
 
-<recipetype:create:cutting>.addRecipe("jacaranda_log", <item:abundance:stripped_jacaranda_log>, <item:abundance:jacaranda_log>);
-<recipetype:create:cutting>.addRecipe("jacaranda_wood", <item:abundance:stripped_jacaranda_wood>, <item:abundance:jacaranda_wood>);
-<recipetype:create:cutting>.addRecipe("stripped_jacaranda_log", <item:abundance:jacaranda_planks> * 5, <item:abundance:stripped_jacaranda_log>);
-<recipetype:create:cutting>.addRecipe("stripped_jacaranda_wood", <item:abundance:jacaranda_planks> * 5, <item:abundance:stripped_jacaranda_wood>);
-<recipetype:create:cutting>.addRecipe("redbud_log", <item:abundance:stripped_redbud_log>, <item:abundance:redbud_log>);
-<recipetype:create:cutting>.addRecipe("flowering_redbud_log", <item:abundance:stripped_redbud_log>, <item:abundance:flowering_redbud_log>);
-<recipetype:create:cutting>.addRecipe("redbud_wood", <item:abundance:stripped_redbud_wood>, <item:abundance:redbud_wood>);
-<recipetype:create:cutting>.addRecipe("flowering_redbud_wood", <item:abundance:stripped_redbud_wood>, <item:abundance:flowering_redbud_wood>);
-<recipetype:create:cutting>.addRecipe("stripped_redbud_log", <item:abundance:redbud_planks> * 5, <item:abundance:stripped_redbud_log>);
-<recipetype:create:cutting>.addRecipe("stripped_redbud_wood", <item:abundance:redbud_planks> * 5, <item:abundance:stripped_redbud_wood>);
+// <recipetype:create:cutting>.addRecipe("jacaranda_log", <item:abundance:stripped_jacaranda_log>, <item:abundance:jacaranda_log>);
+// <recipetype:create:cutting>.addRecipe("jacaranda_wood", <item:abundance:stripped_jacaranda_wood>, <item:abundance:jacaranda_wood>);
+// <recipetype:create:cutting>.addRecipe("stripped_jacaranda_log", <item:abundance:jacaranda_planks> * 5, <item:abundance:stripped_jacaranda_log>);
+// <recipetype:create:cutting>.addRecipe("stripped_jacaranda_wood", <item:abundance:jacaranda_planks> * 5, <item:abundance:stripped_jacaranda_wood>);
+// <recipetype:create:cutting>.addRecipe("redbud_log", <item:abundance:stripped_redbud_log>, <item:abundance:redbud_log>);
+// <recipetype:create:cutting>.addRecipe("flowering_redbud_log", <item:abundance:stripped_redbud_log>, <item:abundance:flowering_redbud_log>);
+// <recipetype:create:cutting>.addRecipe("redbud_wood", <item:abundance:stripped_redbud_wood>, <item:abundance:redbud_wood>);
+// <recipetype:create:cutting>.addRecipe("flowering_redbud_wood", <item:abundance:stripped_redbud_wood>, <item:abundance:flowering_redbud_wood>);
+// <recipetype:create:cutting>.addRecipe("stripped_redbud_log", <item:abundance:redbud_planks> * 5, <item:abundance:stripped_redbud_log>);
+// <recipetype:create:cutting>.addRecipe("stripped_redbud_wood", <item:abundance:redbud_planks> * 5, <item:abundance:stripped_redbud_wood>);
 
 <recipetype:create:cutting>.addRecipe("morado_log", <item:atmospheric:stripped_morado_log>, <item:atmospheric:morado_log>);
 <recipetype:create:cutting>.addRecipe("morado_wood", <item:atmospheric:stripped_morado_wood>, <item:atmospheric:morado_wood>);
@@ -164,23 +164,23 @@ craftingTable.addShaped("mechanical_saw", <item:create:mechanical_saw>, [
 <recipetype:create:cutting>.addRecipe("sappy_maple_log", <item:autumnity:maple_planks> * 5, <item:autumnity:sappy_maple_log>);
 <recipetype:create:cutting>.addRecipe("sappy_maple_wood", <item:autumnity:maple_planks> * 5, <item:autumnity:sappy_maple_wood>);
 
-<recipetype:create:cutting>.addRecipe("cypress_log", <item:bayou_blues:stripped_cypress_log>, <item:bayou_blues:cypress_log>);
-<recipetype:create:cutting>.addRecipe("cypress_wood", <item:bayou_blues:stripped_cypress_wood>, <item:bayou_blues:cypress_wood>);
-<recipetype:create:cutting>.addRecipe("stripped_cypress_log", <item:bayou_blues:cypress_planks> * 5, <item:bayou_blues:stripped_cypress_log>);
-<recipetype:create:cutting>.addRecipe("stripped_cypress_wood", <item:bayou_blues:cypress_planks> * 5, <item:bayou_blues:stripped_cypress_wood>);
+// <recipetype:create:cutting>.addRecipe("cypress_log", <item:bayou_blues:stripped_cypress_log>, <item:bayou_blues:cypress_log>);
+// <recipetype:create:cutting>.addRecipe("cypress_wood", <item:bayou_blues:stripped_cypress_wood>, <item:bayou_blues:cypress_wood>);
+// <recipetype:create:cutting>.addRecipe("stripped_cypress_log", <item:bayou_blues:cypress_planks> * 5, <item:bayou_blues:stripped_cypress_log>);
+// <recipetype:create:cutting>.addRecipe("stripped_cypress_wood", <item:bayou_blues:cypress_planks> * 5, <item:bayou_blues:stripped_cypress_wood>);
 
-<recipetype:create:cutting>.addRecipe("red_mushroom_stem", <item:enhanced_mushrooms:stripped_red_mushroom_stem>, <item:enhanced_mushrooms:red_mushroom_stem>);
-<recipetype:create:cutting>.addRecipe("red_mushroom_hyphae", <item:enhanced_mushrooms:stripped_red_mushroom_hyphae>, <item:enhanced_mushrooms:red_mushroom_hyphae>);
-<recipetype:create:cutting>.addRecipe("stripped_red_mushroom_stem", <item:enhanced_mushrooms:red_mushroom_planks> * 5, <item:enhanced_mushrooms:stripped_red_mushroom_stem>);
-<recipetype:create:cutting>.addRecipe("stripped_red_mushroom_hyphae", <item:enhanced_mushrooms:red_mushroom_planks> * 5, <item:enhanced_mushrooms:stripped_red_mushroom_hyphae>);
-<recipetype:create:cutting>.addRecipe("brown_mushroom_stem", <item:enhanced_mushrooms:stripped_brown_mushroom_stem>, <item:enhanced_mushrooms:brown_mushroom_stem>);
-<recipetype:create:cutting>.addRecipe("brown_mushroom_hyphae", <item:enhanced_mushrooms:stripped_brown_mushroom_hyphae>, <item:enhanced_mushrooms:brown_mushroom_hyphae>);
-<recipetype:create:cutting>.addRecipe("stripped_brown_mushroom_stem", <item:enhanced_mushrooms:brown_mushroom_planks> * 5, <item:enhanced_mushrooms:stripped_brown_mushroom_stem>);
-<recipetype:create:cutting>.addRecipe("stripped_brown_mushroom_hyphae", <item:enhanced_mushrooms:brown_mushroom_planks> * 5, <item:enhanced_mushrooms:stripped_brown_mushroom_hyphae>);
-<recipetype:create:cutting>.addRecipe("glowshroom_stem", <item:enhanced_mushrooms:stripped_glowshroom_stem>, <item:enhanced_mushrooms:glowshroom_stem>);
-<recipetype:create:cutting>.addRecipe("glowshroom_hyphae", <item:enhanced_mushrooms:stripped_glowshroom_hyphae>, <item:enhanced_mushrooms:glowshroom_hyphae>);
-<recipetype:create:cutting>.addRecipe("stripped_glowshroom_stem", <item:enhanced_mushrooms:glowshroom_planks> * 5, <item:enhanced_mushrooms:stripped_glowshroom_stem>);
-<recipetype:create:cutting>.addRecipe("stripped_glowshroom_hyphae", <item:enhanced_mushrooms:glowshroom_planks> * 5, <item:enhanced_mushrooms:stripped_glowshroom_hyphae>);
+// <recipetype:create:cutting>.addRecipe("red_mushroom_stem", <item:enhanced_mushrooms:stripped_red_mushroom_stem>, <item:enhanced_mushrooms:red_mushroom_stem>);
+// <recipetype:create:cutting>.addRecipe("red_mushroom_hyphae", <item:enhanced_mushrooms:stripped_red_mushroom_hyphae>, <item:enhanced_mushrooms:red_mushroom_hyphae>);
+// <recipetype:create:cutting>.addRecipe("stripped_red_mushroom_stem", <item:enhanced_mushrooms:red_mushroom_planks> * 5, <item:enhanced_mushrooms:stripped_red_mushroom_stem>);
+// <recipetype:create:cutting>.addRecipe("stripped_red_mushroom_hyphae", <item:enhanced_mushrooms:red_mushroom_planks> * 5, <item:enhanced_mushrooms:stripped_red_mushroom_hyphae>);
+// <recipetype:create:cutting>.addRecipe("brown_mushroom_stem", <item:enhanced_mushrooms:stripped_brown_mushroom_stem>, <item:enhanced_mushrooms:brown_mushroom_stem>);
+// <recipetype:create:cutting>.addRecipe("brown_mushroom_hyphae", <item:enhanced_mushrooms:stripped_brown_mushroom_hyphae>, <item:enhanced_mushrooms:brown_mushroom_hyphae>);
+// <recipetype:create:cutting>.addRecipe("stripped_brown_mushroom_stem", <item:enhanced_mushrooms:brown_mushroom_planks> * 5, <item:enhanced_mushrooms:stripped_brown_mushroom_stem>);
+// <recipetype:create:cutting>.addRecipe("stripped_brown_mushroom_hyphae", <item:enhanced_mushrooms:brown_mushroom_planks> * 5, <item:enhanced_mushrooms:stripped_brown_mushroom_hyphae>);
+// <recipetype:create:cutting>.addRecipe("glowshroom_stem", <item:enhanced_mushrooms:stripped_glowshroom_stem>, <item:enhanced_mushrooms:glowshroom_stem>);
+// <recipetype:create:cutting>.addRecipe("glowshroom_hyphae", <item:enhanced_mushrooms:stripped_glowshroom_hyphae>, <item:enhanced_mushrooms:glowshroom_hyphae>);
+// <recipetype:create:cutting>.addRecipe("stripped_glowshroom_stem", <item:enhanced_mushrooms:glowshroom_planks> * 5, <item:enhanced_mushrooms:stripped_glowshroom_stem>);
+// <recipetype:create:cutting>.addRecipe("stripped_glowshroom_hyphae", <item:enhanced_mushrooms:glowshroom_planks> * 5, <item:enhanced_mushrooms:stripped_glowshroom_hyphae>);
 
 <recipetype:create:cutting>.addRecipe("willow_log", <item:environmental:stripped_willow_log>, <item:environmental:willow_log>);
 <recipetype:create:cutting>.addRecipe("willow_wood", <item:environmental:stripped_willow_wood>, <item:environmental:willow_wood>);
@@ -217,39 +217,39 @@ craftingTable.addShaped("mechanical_saw", <item:create:mechanical_saw>, [
 <recipetype:create:crushing>.addRecipe("water_hyacinth_crushing", [<item:minecraft:purple_dye> * 2, <item:minecraft:green_dye> % 20], <item:atmospheric:water_hyacinth>);
 <recipetype:create:milling>.addRecipe("water_hyacinth_milling", [<item:minecraft:purple_dye> * 2, <item:minecraft:green_dye> % 20], <item:atmospheric:water_hyacinth>);
 
-<recipetype:create:crushing>.addRecipe("sunny_marigold_crushing", [<item:minecraft:orange_dye> * 2, <item:minecraft:yellow_dye> % 20], <item:abundance:sunny_marigold>);
-<recipetype:create:milling>.addRecipe("sunny_marigold_milling", [<item:minecraft:orange_dye> * 2, <item:minecraft:yellow_dye> % 20], <item:abundance:sunny_marigold>);
-<recipetype:create:crushing>.addRecipe("shady_marigold_crushing", [<item:minecraft:orange_dye> * 2, <item:minecraft:brown_dye> % 20], <item:abundance:shady_marigold>);
-<recipetype:create:milling>.addRecipe("shady_marigold_milling", [<item:minecraft:orange_dye> * 2, <item:minecraft:brown_dye> % 20], <item:abundance:shady_marigold>);
-<recipetype:create:crushing>.addRecipe("tall_marigold_crushing", [<item:minecraft:orange_dye> * 3, <item:minecraft:brown_dye> % 50, <item:minecraft:yellow_dye> % 50], <item:abundance:tall_marigold>);
-<recipetype:create:milling>.addRecipe("tall_marigold_milling", [<item:minecraft:orange_dye> * 3, <item:minecraft:brown_dye> % 50, <item:minecraft:yellow_dye> % 50], <item:abundance:tall_marigold>);
-<recipetype:create:crushing>.addRecipe("chicory_crushing", [<item:minecraft:light_blue_dye> * 2, <item:minecraft:magenta_dye> % 5], <item:abundance:chicory>);
-<recipetype:create:milling>.addRecipe("chicory_milling", [<item:minecraft:light_blue_dye> * 2, <item:minecraft:magenta_dye> % 5], <item:abundance:chicory>);
-<recipetype:create:crushing>.addRecipe("amaranthus_crushing", [<item:minecraft:red_dye> * 2], <item:abundance:amaranthus>);
-<recipetype:create:milling>.addRecipe("amaranthus_milling", [<item:minecraft:red_dye> * 2], <item:abundance:amaranthus>);
-<recipetype:create:crushing>.addRecipe("nemophila_crushing", [<item:minecraft:light_blue_dye> * 2], <item:abundance:nemophila>);
-<recipetype:create:milling>.addRecipe("nemophila_milling", [<item:minecraft:light_blue_dye> * 2], <item:abundance:nemophila>);
-<recipetype:create:crushing>.addRecipe("purple_african_daisy_crushing", [<item:minecraft:purple_dye> * 2], <item:abundance:purple_african_daisy>);
-<recipetype:create:milling>.addRecipe("purple_african_daisy_milling", [<item:minecraft:purple_dye> * 2], <item:abundance:purple_african_daisy>);
-<recipetype:create:crushing>.addRecipe("yellow_african_daisy_crushing", [<item:minecraft:yellow_dye> * 2], <item:abundance:yellow_african_daisy>);
-<recipetype:create:milling>.addRecipe("yellow_african_daisy_milling", [<item:minecraft:yellow_dye> * 2], <item:abundance:yellow_african_daisy>);
+// <recipetype:create:crushing>.addRecipe("sunny_marigold_crushing", [<item:minecraft:orange_dye> * 2, <item:minecraft:yellow_dye> % 20], <item:abundance:sunny_marigold>);
+// <recipetype:create:milling>.addRecipe("sunny_marigold_milling", [<item:minecraft:orange_dye> * 2, <item:minecraft:yellow_dye> % 20], <item:abundance:sunny_marigold>);
+// <recipetype:create:crushing>.addRecipe("shady_marigold_crushing", [<item:minecraft:orange_dye> * 2, <item:minecraft:brown_dye> % 20], <item:abundance:shady_marigold>);
+// <recipetype:create:milling>.addRecipe("shady_marigold_milling", [<item:minecraft:orange_dye> * 2, <item:minecraft:brown_dye> % 20], <item:abundance:shady_marigold>);
+// <recipetype:create:crushing>.addRecipe("tall_marigold_crushing", [<item:minecraft:orange_dye> * 3, <item:minecraft:brown_dye> % 50, <item:minecraft:yellow_dye> % 50], <item:abundance:tall_marigold>);
+// <recipetype:create:milling>.addRecipe("tall_marigold_milling", [<item:minecraft:orange_dye> * 3, <item:minecraft:brown_dye> % 50, <item:minecraft:yellow_dye> % 50], <item:abundance:tall_marigold>);
+// <recipetype:create:crushing>.addRecipe("chicory_crushing", [<item:minecraft:light_blue_dye> * 2, <item:minecraft:magenta_dye> % 5], <item:abundance:chicory>);
+// <recipetype:create:milling>.addRecipe("chicory_milling", [<item:minecraft:light_blue_dye> * 2, <item:minecraft:magenta_dye> % 5], <item:abundance:chicory>);
+// <recipetype:create:crushing>.addRecipe("amaranthus_crushing", [<item:minecraft:red_dye> * 2], <item:abundance:amaranthus>);
+// <recipetype:create:milling>.addRecipe("amaranthus_milling", [<item:minecraft:red_dye> * 2], <item:abundance:amaranthus>);
+// <recipetype:create:crushing>.addRecipe("nemophila_crushing", [<item:minecraft:light_blue_dye> * 2], <item:abundance:nemophila>);
+// <recipetype:create:milling>.addRecipe("nemophila_milling", [<item:minecraft:light_blue_dye> * 2], <item:abundance:nemophila>);
+// <recipetype:create:crushing>.addRecipe("purple_african_daisy_crushing", [<item:minecraft:purple_dye> * 2], <item:abundance:purple_african_daisy>);
+// <recipetype:create:milling>.addRecipe("purple_african_daisy_milling", [<item:minecraft:purple_dye> * 2], <item:abundance:purple_african_daisy>);
+// <recipetype:create:crushing>.addRecipe("yellow_african_daisy_crushing", [<item:minecraft:yellow_dye> * 2], <item:abundance:yellow_african_daisy>);
+// <recipetype:create:milling>.addRecipe("yellow_african_daisy_milling", [<item:minecraft:yellow_dye> * 2], <item:abundance:yellow_african_daisy>);
 
-<recipetype:create:crushing>.addRecipe("blue_lily_crushing", [<item:minecraft:blue_dye> * 2, <item:minecraft:green_dye> % 10], <item:bayou_blues:blue_lily>);
-<recipetype:create:milling>.addRecipe("blue_lily_milling", [<item:minecraft:blue_dye> * 2, <item:minecraft:green_dye> % 10], <item:bayou_blues:blue_lily>);
-<recipetype:create:crushing>.addRecipe("light_gray_lily_crushing", [<item:minecraft:light_gray_dye> * 2, <item:minecraft:green_dye> % 10], <item:bayou_blues:light_gray_lily>);
-<recipetype:create:milling>.addRecipe("light_gray_lily_milling", [<item:minecraft:light_gray_dye> * 2, <item:minecraft:green_dye> % 10], <item:bayou_blues:light_gray_lily>);
-<recipetype:create:crushing>.addRecipe("cyan_lily_crushing", [<item:minecraft:cyan_dye> * 2, <item:minecraft:green_dye> % 10], <item:bayou_blues:cyan_lily>);
-<recipetype:create:milling>.addRecipe("cyan_lily_milling", [<item:minecraft:cyan_dye> * 2, <item:minecraft:green_dye> % 10], <item:bayou_blues:cyan_lily>);
-<recipetype:create:crushing>.addRecipe("light_blue_lily_crushing", [<item:minecraft:light_blue_dye> * 2, <item:minecraft:green_dye> % 10], <item:bayou_blues:light_blue_lily>);
-<recipetype:create:milling>.addRecipe("light_blue_lily_milling", [<item:minecraft:light_blue_dye> * 2, <item:minecraft:green_dye> % 10], <item:bayou_blues:light_blue_lily>);
-<recipetype:create:crushing>.addRecipe("magenta_lily_crushing", [<item:minecraft:magenta_dye> * 2, <item:minecraft:green_dye> % 10], <item:bayou_blues:magenta_lily>);
-<recipetype:create:milling>.addRecipe("magenta_lily_milling", [<item:minecraft:magenta_dye> * 2, <item:minecraft:green_dye> % 10], <item:bayou_blues:magenta_lily>);
-<recipetype:create:crushing>.addRecipe("pink_lily_crushing", [<item:minecraft:pink_dye> * 2, <item:minecraft:green_dye> % 10], <item:bayou_blues:pink_lily>);
-<recipetype:create:milling>.addRecipe("pink_lily_milling", [<item:minecraft:pink_dye> * 2, <item:minecraft:green_dye> % 10], <item:bayou_blues:pink_lily>);
-<recipetype:create:crushing>.addRecipe("purple_lily_crushing", [<item:minecraft:purple_dye> * 2, <item:minecraft:green_dye> % 10], <item:bayou_blues:purple_lily>);
-<recipetype:create:milling>.addRecipe("purple_lily_milling", [<item:minecraft:purple_dye> * 2, <item:minecraft:green_dye> % 10], <item:bayou_blues:purple_lily>);
-<recipetype:create:crushing>.addRecipe("white_lily_crushing", [<item:minecraft:white_dye> * 2, <item:minecraft:green_dye> % 10], <item:bayou_blues:white_lily>);
-<recipetype:create:milling>.addRecipe("white_lily_milling", [<item:minecraft:white_dye> * 2, <item:minecraft:green_dye> % 10], <item:bayou_blues:white_lily>);
+// <recipetype:create:crushing>.addRecipe("blue_lily_crushing", [<item:minecraft:blue_dye> * 2, <item:minecraft:green_dye> % 10], <item:bayou_blues:blue_lily>);
+// <recipetype:create:milling>.addRecipe("blue_lily_milling", [<item:minecraft:blue_dye> * 2, <item:minecraft:green_dye> % 10], <item:bayou_blues:blue_lily>);
+// <recipetype:create:crushing>.addRecipe("light_gray_lily_crushing", [<item:minecraft:light_gray_dye> * 2, <item:minecraft:green_dye> % 10], <item:bayou_blues:light_gray_lily>);
+// <recipetype:create:milling>.addRecipe("light_gray_lily_milling", [<item:minecraft:light_gray_dye> * 2, <item:minecraft:green_dye> % 10], <item:bayou_blues:light_gray_lily>);
+// <recipetype:create:crushing>.addRecipe("cyan_lily_crushing", [<item:minecraft:cyan_dye> * 2, <item:minecraft:green_dye> % 10], <item:bayou_blues:cyan_lily>);
+// <recipetype:create:milling>.addRecipe("cyan_lily_milling", [<item:minecraft:cyan_dye> * 2, <item:minecraft:green_dye> % 10], <item:bayou_blues:cyan_lily>);
+// <recipetype:create:crushing>.addRecipe("light_blue_lily_crushing", [<item:minecraft:light_blue_dye> * 2, <item:minecraft:green_dye> % 10], <item:bayou_blues:light_blue_lily>);
+// <recipetype:create:milling>.addRecipe("light_blue_lily_milling", [<item:minecraft:light_blue_dye> * 2, <item:minecraft:green_dye> % 10], <item:bayou_blues:light_blue_lily>);
+// <recipetype:create:crushing>.addRecipe("magenta_lily_crushing", [<item:minecraft:magenta_dye> * 2, <item:minecraft:green_dye> % 10], <item:bayou_blues:magenta_lily>);
+// <recipetype:create:milling>.addRecipe("magenta_lily_milling", [<item:minecraft:magenta_dye> * 2, <item:minecraft:green_dye> % 10], <item:bayou_blues:magenta_lily>);
+// <recipetype:create:crushing>.addRecipe("pink_lily_crushing", [<item:minecraft:pink_dye> * 2, <item:minecraft:green_dye> % 10], <item:bayou_blues:pink_lily>);
+// <recipetype:create:milling>.addRecipe("pink_lily_milling", [<item:minecraft:pink_dye> * 2, <item:minecraft:green_dye> % 10], <item:bayou_blues:pink_lily>);
+// <recipetype:create:crushing>.addRecipe("purple_lily_crushing", [<item:minecraft:purple_dye> * 2, <item:minecraft:green_dye> % 10], <item:bayou_blues:purple_lily>);
+// <recipetype:create:milling>.addRecipe("purple_lily_milling", [<item:minecraft:purple_dye> * 2, <item:minecraft:green_dye> % 10], <item:bayou_blues:purple_lily>);
+// <recipetype:create:crushing>.addRecipe("white_lily_crushing", [<item:minecraft:white_dye> * 2, <item:minecraft:green_dye> % 10], <item:bayou_blues:white_lily>);
+// <recipetype:create:milling>.addRecipe("white_lily_milling", [<item:minecraft:white_dye> * 2, <item:minecraft:green_dye> % 10], <item:bayou_blues:white_lily>);
 
 <recipetype:create:crushing>.addRecipe("cartwheel_crushing", [<item:minecraft:pink_dye> * 2, <item:minecraft:yellow_dye> % 20], <item:environmental:cartwheel>);
 <recipetype:create:milling>.addRecipe("cartwheel_milling", [<item:minecraft:pink_dye> * 2, <item:minecraft:yellow_dye> % 20], <item:environmental:cartwheel>);
@@ -286,23 +286,23 @@ craftingTable.addShaped("mechanical_saw", <item:create:mechanical_saw>, [
 <recipetype:create:crushing>.addRecipe("white_delphinium_crushing", [<item:minecraft:white_dye> * 3, <item:minecraft:white_dye> * 2 % 25], <item:environmental:white_delphinium>);
 <recipetype:create:milling>.addRecipe("white_delphinium_milling", [<item:minecraft:white_dye> * 3, <item:minecraft:white_dye> * 2 % 25], <item:environmental:white_delphinium>);
 
-<recipetype:create:milling>.addRecipe("basalt_iron_ore_milling", [<item:create:crushed_iron_ore>], <item:infernalexp:basalt_iron_ore>);
-<recipetype:create:crushing>.addRecipe("basalt_iron_ore_crushing", [<item:create:crushed_iron_ore>, <item:create:crushed_iron_ore> * 2 % 30, <item:minecraft:basalt> % 12], <item:infernalexp:basalt_iron_ore>);
+// <recipetype:create:milling>.addRecipe("basalt_iron_ore_milling", [<item:create:crushed_iron_ore>], <item:infernalexp:basalt_iron_ore>);
+// <recipetype:create:crushing>.addRecipe("basalt_iron_ore_crushing", [<item:create:crushed_iron_ore>, <item:create:crushed_iron_ore> * 2 % 30, <item:minecraft:basalt> % 12], <item:infernalexp:basalt_iron_ore>);
 
 // Uninspirational Fluids =========================================================================
-<recipetype:create:filling>.removeRecipe(<item:inspirations:honey_bucket>);
-<recipetype:create:emptying>.removeRecipe(<fluid:inspirations:honey>);
-<recipetype:create:emptying>.addRecipe("uninspirational_honey", <item:minecraft:bucket>, <fluid:create:honey> * 1000, <item:inspirations:honey_bucket>);
+// <recipetype:create:filling>.removeRecipe(<item:inspirations:honey_bucket>);
+// <recipetype:create:emptying>.removeRecipe(<fluid:inspirations:honey>);
+// <recipetype:create:emptying>.addRecipe("uninspirational_honey", <item:minecraft:bucket>, <fluid:create:honey> * 1000, <item:inspirations:honey_bucket>);
 
 // Demugging ======================================================================================
-craftingTable.removeRecipe(<item:frozenup:empty_mug>);
-craftingTable.removeRecipe(<item:frozenup:mug_of_milk>);
-craftingTable.removeRecipe(<item:frozenup:mug_of_chocolate_milk>);
-craftingTable.removeRecipe(<item:frozenup:mug_of_truffle_hot_chocolate>);
-JEI.hideItem(<item:frozenup:empty_mug>);
-JEI.hideItem(<item:frozenup:mug_of_milk>);
-JEI.hideItem(<item:frozenup:mug_of_chocolate_milk>);
-JEI.hideItem(<item:frozenup:mug_of_truffle_hot_chocolate>);
+// craftingTable.removeRecipe(<item:frozenup:empty_mug>);
+// craftingTable.removeRecipe(<item:frozenup:mug_of_milk>);
+// craftingTable.removeRecipe(<item:frozenup:mug_of_chocolate_milk>);
+// craftingTable.removeRecipe(<item:frozenup:mug_of_truffle_hot_chocolate>);
+// JEI.hideItem(<item:frozenup:empty_mug>);
+// JEI.hideItem(<item:frozenup:mug_of_milk>);
+// JEI.hideItem(<item:frozenup:mug_of_chocolate_milk>);
+// JEI.hideItem(<item:frozenup:mug_of_truffle_hot_chocolate>);
 
 // Schematic Removal ==============================================================================
 craftingTable.removeRecipe(<item:create:schematicannon>);
@@ -713,12 +713,12 @@ stoneCutter.removeRecipe(<item:create:mossy_dark_scoria>);
 stoneCutter.removeRecipe(<item:create:overgrown_dark_scoria>);
 
 // Overlap Removal ================================================================================
-craftingTable.removeRecipe(<item:supplementaries:turn_table>);
-craftingTable.removeRecipe(<item:supplementaries:piston_launcher>);
-craftingTable.removeRecipe(<item:structuredcrafting:structured_crafter>);
-JEI.hideItem(<item:supplementaries:turn_table>);
-JEI.hideItem(<item:supplementaries:piston_launcher>);
-JEI.hideItem(<item:structuredcrafting:structured_crafter>);
+// craftingTable.removeRecipe(<item:supplementaries:turn_table>);
+// craftingTable.removeRecipe(<item:supplementaries:piston_launcher>);
+// craftingTable.removeRecipe(<item:structuredcrafting:structured_crafter>);
+// JEI.hideItem(<item:supplementaries:turn_table>);
+// JEI.hideItem(<item:supplementaries:piston_launcher>);
+// JEI.hideItem(<item:structuredcrafting:structured_crafter>);
 craftingTable.removeRecipe(<item:quark:white_stool>);
 craftingTable.addShapeless("white_stool_convert", <item:create:white_seat>, [<item:quark:white_stool>]);
 JEI.addInfo(<item:quark:white_stool>, ["This item cannot be crafted. If you already have one, it can be crafted into a seat, which works in the same way."]);

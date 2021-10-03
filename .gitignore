@@ -11,3 +11,5 @@
 !/.gitignore
 /ship/output
 *.pyc
+/mods/nether_extension*
+/mods/caverns_and_chasms*

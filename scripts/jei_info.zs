@@ -187,14 +187,14 @@ s = "This spawns underground under Mountains and Mushroom Islands.";
 i(<item:quark:glowshroom>, s);
 i(<item:quark:glowcelium>, s);
 i(<item:quark:glowshroom_block>, s);
-i(<item:enhanced_mushrooms:glowshroom_stem>, s);
-i(<item:enhanced_mushrooms:glowshroom_planks>, s);
+// i(<item:enhanced_mushrooms:glowshroom_stem>, s);
+// i(<item:enhanced_mushrooms:glowshroom_planks>, s);
 
-s = "This wood can be gotten by growing mushrooms.";
-i(<item:enhanced_mushrooms:brown_mushroom_stem>, s);
-i(<item:enhanced_mushrooms:brown_mushroom_planks>, s);
-i(<item:enhanced_mushrooms:red_mushroom_stem>, s);
-i(<item:enhanced_mushrooms:red_mushroom_planks>, s);
+// s = "This wood can be gotten by growing mushrooms.";
+// i(<item:enhanced_mushrooms:brown_mushroom_stem>, s);
+// i(<item:enhanced_mushrooms:brown_mushroom_planks>, s);
+// i(<item:enhanced_mushrooms:red_mushroom_stem>, s);
+// i(<item:enhanced_mushrooms:red_mushroom_planks>, s);
 
 s = "This wood spawns in Blossom Highlands.";
 i(<item:environmental:cherry_log>, s);
@@ -216,18 +216,18 @@ s = "This wood spawns in Rivers and Beaches.";
 i(<item:upgrade_aquatic:river_log>, s);
 i(<item:upgrade_aquatic:river_planks>, s);
 
-s = "This wood spawns in Lavender Fields and Lavender Forests.";
-i(<item:abundance:jacaranda_log>, s);
-i(<item:abundance:jacaranda_planks>, s);
+// s = "This wood spawns in Lavender Fields and Lavender Forests.";
+// i(<item:abundance:jacaranda_log>, s);
+// i(<item:abundance:jacaranda_planks>, s);
 
-s = "This wood spawns randomly around plains and forests.";
-i(<item:abundance:redbud_log>, s);
-i(<item:abundance:flowering_redbud_log>, s);
-i(<item:abundance:redbud_planks>, s);
+// s = "This wood spawns randomly around plains and forests.";
+// i(<item:abundance:redbud_log>, s);
+// i(<item:abundance:flowering_redbud_log>, s);
+// i(<item:abundance:redbud_planks>, s);
 
-s = "This wood spawns in Bayous.";
-i(<item:bayou_blues:cypress_log>, s);
-i(<item:bayou_blues:cypress_planks>, s);
+// s = "This wood spawns in Bayous.";
+// i(<item:bayou_blues:cypress_log>, s);
+// i(<item:bayou_blues:cypress_planks>, s);
 
 // Dunes Features
 s = "This spawns in Dunes.";
@@ -246,22 +246,22 @@ s = "This spawns in Rainforests.";
 i(<item:atmospheric:passion_vine>, s);
 i(<item:atmospheric:passionfruit>, s);
 
-// Bayou Features
-s = "This spawns in Bayous.";
-i(<item:bayou_blues:cypress_knee>, s);
-i(<item:bayou_blues:large_cypress_knee>, s);
-i(<item:bayou_blues:cypress_branch>, s);
-i(<item:bayou_blues:gooseberries>, s);
-i(<item:bayou_blues:algae>, s);
-i(<item:bayou_blues:beard_moss>, s);
+// // Bayou Features
+// s = "This spawns in Bayous.";
+// i(<item:bayou_blues:cypress_knee>, s);
+// i(<item:bayou_blues:large_cypress_knee>, s);
+// i(<item:bayou_blues:cypress_branch>, s);
+// i(<item:bayou_blues:gooseberries>, s);
+// i(<item:bayou_blues:algae>, s);
+// i(<item:bayou_blues:beard_moss>, s);
 
-// Lavender Features
-i(<item:abundance:lavender>, "This spawns in Lavender Fields and Lavender Forests.");
+// // Lavender Features
+// i(<item:abundance:lavender>, "This spawns in Lavender Fields and Lavender Forests.");
 
-// Saguaro
-s = "This spawns in Badlands";
-i(<item:abundance:small_saguaro_cactus>, s);
-i(<item:abundance:saguaro_flower>, s);
+// // Saguaro
+// s = "This spawns in Badlands";
+// i(<item:abundance:small_saguaro_cactus>, s);
+// i(<item:abundance:saguaro_flower>, s);
 
 // Balloons
 s = "Try attaching these to fences, mobs, or even boats!";
@@ -379,10 +379,10 @@ i(<item:quark:magenta_slime_block>, s);
 i(<item:quark:red_slime_block>, s);
 i(<item:quark:yellow_slime_block>, s);
 
-// Chimes
-s = "This can be right clicked to remove your insomnia level without having to sleep. It also makes a nice sound!";
-i(<item:chimes:bamboo_chimes>, s);
-i(<item:chimes:metal_chimes>, s);
+// // Chimes
+// s = "This can be right clicked to remove your insomnia level without having to sleep. It also makes a nice sound!";
+// i(<item:chimes:bamboo_chimes>, s);
+// i(<item:chimes:metal_chimes>, s);
 
 // Traveller's Armor
 i(<item:environmental:architect_belt>, "Part of the Traveller's Armor set. Can be bought by master level Masons, Carpenters, or Ceramists and leveled up with use.");
@@ -459,31 +459,31 @@ i(<item:environmental:kiln>, "It's faster at smelting anything a smoker and blas
 i(<item:environmental:sawmill>, "Cuts wood like a stonecutter. It's also the Carpenter villager workstation.");
 i(<item:environmental:truffle>, "Can be scavenged by Pigs by feeding them Golden Carrots.");
 
-// Neapolitan
-s = "Spawns in tropical biomes and beaches. Can be farmed by planting Fronds.";
-i(<item:neapolitan:banana>, s); 
-i(<item:neapolitan:banana_bunch>, s);
-i(<item:neapolitan:banana_stalk>, s);
+// // Neapolitan
+// s = "Spawns in tropical biomes and beaches. Can be farmed by planting Fronds.";
+// i(<item:neapolitan:banana>, s); 
+// i(<item:neapolitan:banana_bunch>, s);
+// i(<item:neapolitan:banana_stalk>, s);
 
-s = "Grows when planted on Sand or Gravel during rain. Can be bone mealed if raining.";
-i(<item:neapolitan:banana_frond>, s);
-i(<item:neapolitan:small_banana_frond>, s);
-i(<item:neapolitan:large_banana_frond>, s);
+// s = "Grows when planted on Sand or Gravel during rain. Can be bone mealed if raining.";
+// i(<item:neapolitan:banana_frond>, s);
+// i(<item:neapolitan:small_banana_frond>, s);
+// i(<item:neapolitan:large_banana_frond>, s);
 
-s = "Found in patches in Plains Biomes.";
-i(<item:neapolitan:strawberries>, s);
-i(<item:neapolitan:strawberry_pips>, s);
+// s = "Found in patches in Plains Biomes.";
+// i(<item:neapolitan:strawberries>, s);
+// i(<item:neapolitan:strawberry_pips>, s);
 
-s = "You can get these by using Magic Beans.";
-i(<item:neapolitan:beanstalk>, s);
-i(<item:neapolitan:beanstalk_thorns>, s);
+// s = "You can get these by using Magic Beans.";
+// i(<item:neapolitan:beanstalk>, s);
+// i(<item:neapolitan:beanstalk_thorns>, s);
 
-i(<item:neapolitan:adzuki_beans>, "Found in patches in Forest Biomes.");
-i(<item:neapolitan:mint_sprout>, "Found in patches in Mountain Biomes.");
-i(<item:neapolitan:white_strawberries>, "Can be gotten by growing strawberries at high altitudes (Y > 200).");
-i(<item:neapolitan:vanilla_pods>, "Found in patches in Plains Savannas. Grows taller if there's adjacent solid blocks.");
-i(<item:neapolitan:ice_cubes>, "Drop from ice if broken without Silk Touch.");
-i(<item:neapolitan:magic_beans>, "Can be planted to grow large beanstalks.");
+// i(<item:neapolitan:adzuki_beans>, "Found in patches in Forest Biomes.");
+// i(<item:neapolitan:mint_sprout>, "Found in patches in Mountain Biomes.");
+// i(<item:neapolitan:white_strawberries>, "Can be gotten by growing strawberries at high altitudes (Y > 200).");
+// i(<item:neapolitan:vanilla_pods>, "Found in patches in Plains Savannas. Grows taller if there's adjacent solid blocks.");
+// i(<item:neapolitan:ice_cubes>, "Drop from ice if broken without Silk Touch.");
+// i(<item:neapolitan:magic_beans>, "Can be planted to grow large beanstalks.");
 
 // Savage & Ravage
 i(<item:savageandravage:creeper_spores>, "Drops when a Creeper blows another Creeper up. Try throwing it to make friends!");
@@ -589,73 +589,73 @@ i(<item:quark:frog_leg>, "Drops from Frogs, which spawn in swamps. Breed them wi
 
 i(<item:quark:slime_in_a_bucket>, "Right click a tiny slime to capture it. It gets excited when you're in a slime chunk!");
 
-// Alex's Mobs
-s = "Consult an Animal Dictionary for more information.";
-i(<item:alexsmobs:acacia_blossom>, s);
-i(<item:alexsmobs:bear_fur>, s);
-i(<item:alexsmobs:blood_sac>, s);
-i(<item:alexsmobs:bone_serpent_tooth>, s);
-i(<item:alexsmobs:centipede_leg>, s);
-i(<item:alexsmobs:cockroach_ootheca>, s);
-i(<item:alexsmobs:cockroach_wing_fragment>, s);
-i(<item:alexsmobs:crocodile_egg>, s);
-i(<item:alexsmobs:gazelle_horn>, s);
-i(<item:alexsmobs:komodo_spit>, s);
-i(<item:alexsmobs:lobster_tail>, s);
-i(<item:alexsmobs:moose_antler>, s);
-i(<item:alexsmobs:mosquito_larva>, s);
-i(<item:alexsmobs:mosquito_proboscis>, s);
-i(<item:alexsmobs:raccoon_tail>, s);
-i(<item:alexsmobs:rattlesnake_rattle>, s);
-i(<item:alexsmobs:roadrunner_feather>, s);
-i(<item:alexsmobs:soul_heart>, s);
-i(<item:alexsmobs:moose_ribs>, s);
-i(<item:alexsmobs:spiked_scute>, s);
-i(<item:alexsmobs:guster_eye>, s);
-i(<item:alexsmobs:emu_egg>, s);
-i(<item:alexsmobs:emu_feather>, s);
-i(<item:alexsmobs:dropbear_claw>, s);
-i(<item:alexsmobs:kangaroo_meat>, s);
-i(<item:alexsmobs:kangaroo_hide>, s);
-i(<item:alexsmobs:straddlite>, s);
-i(<item:alexsmobs:stradpole_bucket>, s);
-i(<item:alexsmobs:straddleboard>, s);
-i(<item:alexsmobs:gongylidia>, s);
-i(<item:alexsmobs:leafcutter_ant_pupa>, s);
-i(<item:alexsmobs:enderiophage_rocket>, s);
-i(<item:alexsmobs:leafcutter_anthill>, s);
-i(<item:alexsmobs:leafcutter_ant_chamber>, s);
-i(<item:alexsmobs:hummingbird_feeder>, s);
+// // Alex's Mobs
+// s = "Consult an Animal Dictionary for more information.";
+// i(<item:alexsmobs:acacia_blossom>, s);
+// i(<item:alexsmobs:bear_fur>, s);
+// i(<item:alexsmobs:blood_sac>, s);
+// i(<item:alexsmobs:bone_serpent_tooth>, s);
+// i(<item:alexsmobs:centipede_leg>, s);
+// i(<item:alexsmobs:cockroach_ootheca>, s);
+// i(<item:alexsmobs:cockroach_wing_fragment>, s);
+// i(<item:alexsmobs:crocodile_egg>, s);
+// i(<item:alexsmobs:gazelle_horn>, s);
+// i(<item:alexsmobs:komodo_spit>, s);
+// i(<item:alexsmobs:lobster_tail>, s);
+// i(<item:alexsmobs:moose_antler>, s);
+// i(<item:alexsmobs:mosquito_larva>, s);
+// i(<item:alexsmobs:mosquito_proboscis>, s);
+// i(<item:alexsmobs:raccoon_tail>, s);
+// i(<item:alexsmobs:rattlesnake_rattle>, s);
+// i(<item:alexsmobs:roadrunner_feather>, s);
+// i(<item:alexsmobs:soul_heart>, s);
+// i(<item:alexsmobs:moose_ribs>, s);
+// i(<item:alexsmobs:spiked_scute>, s);
+// i(<item:alexsmobs:guster_eye>, s);
+// i(<item:alexsmobs:emu_egg>, s);
+// i(<item:alexsmobs:emu_feather>, s);
+// i(<item:alexsmobs:dropbear_claw>, s);
+// i(<item:alexsmobs:kangaroo_meat>, s);
+// i(<item:alexsmobs:kangaroo_hide>, s);
+// i(<item:alexsmobs:straddlite>, s);
+// i(<item:alexsmobs:stradpole_bucket>, s);
+// i(<item:alexsmobs:straddleboard>, s);
+// i(<item:alexsmobs:gongylidia>, s);
+// i(<item:alexsmobs:leafcutter_ant_pupa>, s);
+// i(<item:alexsmobs:enderiophage_rocket>, s);
+// i(<item:alexsmobs:leafcutter_anthill>, s);
+// i(<item:alexsmobs:leafcutter_ant_chamber>, s);
+// i(<item:alexsmobs:hummingbird_feeder>, s);
 
-i(<item:alexsmobs:crocodile_scute>, "Sourced from Crocodiles, which spawn in Rivers and Swamps. Crocodiles may kill you. Consult an Animal Dictionary for more information.");
-i(<item:alexsmobs:animal_dictionary>, "Contains information on Alex's Mobs.");
-i(<item:alexsmobs:mimicream>, "Drops from Mimicubes near end cities. Consult an Animal Dictionary for more information.");
-i(<item:alexsmobs:pocket_sand>, "Can be used as a longrange weapon, if you're so inclined.");
-i(<item:alexsmobs:gustmaker>, "When given a redstone signal, sends a sand tornado in the direction it's facing.");
-i(<item:alexsmobs:fedora>, "Do bee do bee doo ba doo");
-i(<item:alexsmobs:capsid>, "Can drop from Enderiophages and used to transport items. Consult an Animal Dictionary for more information.");
+// i(<item:alexsmobs:crocodile_scute>, "Sourced from Crocodiles, which spawn in Rivers and Swamps. Crocodiles may kill you. Consult an Animal Dictionary for more information.");
+// i(<item:alexsmobs:animal_dictionary>, "Contains information on Alex's Mobs.");
+// i(<item:alexsmobs:mimicream>, "Drops from Mimicubes near end cities. Consult an Animal Dictionary for more information.");
+// i(<item:alexsmobs:pocket_sand>, "Can be used as a longrange weapon, if you're so inclined.");
+// i(<item:alexsmobs:gustmaker>, "When given a redstone signal, sends a sand tornado in the direction it's facing.");
+// i(<item:alexsmobs:fedora>, "Do bee do bee doo ba doo");
+// i(<item:alexsmobs:capsid>, "Can drop from Enderiophages and used to transport items. Consult an Animal Dictionary for more information.");
 
-// The section that brings all the boys to the yard
-s = "When drank or fed to a creature or mob, it ";
-i(<item:neapolitan:vanilla_milkshake>, s + "removes all effects.");
-i(<item:neapolitan:chocolate_milkshake>, s + "removes all positive effects.");
-i(<item:neapolitan:strawberry_milkshake>, s + "removes all negative effects.");
-i(<item:neapolitan:banana_milkshake>, s + "swaps all effects with the nearest creature.");
-i(<item:neapolitan:mint_milkshake>, s + "steals all effects from the nearest creature.");
-i(<item:neapolitan:adzuki_milkshake>, s + "gives all effects to the nearest creature.");
+// // The section that brings all the boys to the yard
+// s = "When drank or fed to a creature or mob, it ";
+// i(<item:neapolitan:vanilla_milkshake>, s + "removes all effects.");
+// i(<item:neapolitan:chocolate_milkshake>, s + "removes all positive effects.");
+// i(<item:neapolitan:strawberry_milkshake>, s + "removes all negative effects.");
+// i(<item:neapolitan:banana_milkshake>, s + "swaps all effects with the nearest creature.");
+// i(<item:neapolitan:mint_milkshake>, s + "steals all effects from the nearest creature.");
+// i(<item:neapolitan:adzuki_milkshake>, s + "gives all effects to the nearest creature.");
 
-i(<item:peculiars:yucca_milkshake>, s + "consumes all effects, and then gives them to the next creature that attacks the drinker.");
-i(<item:peculiars:aloe_milkshake>, s + "consumes all effects, and then gives them to back when the drinker is next attacked.");
-i(<item:peculiars:passionfruit_milkshake>, s + "consumes all effects, and then gives them to the next creature that is attacked by the drinker.");
+// i(<item:peculiars:yucca_milkshake>, s + "consumes all effects, and then gives them to the next creature that attacks the drinker.");
+// i(<item:peculiars:aloe_milkshake>, s + "consumes all effects, and then gives them to back when the drinker is next attacked.");
+// i(<item:peculiars:passionfruit_milkshake>, s + "consumes all effects, and then gives them to the next creature that is attacked by the drinker.");
 
-i(<item:seasonals:pumpkin_milkshake>, s + "redistributes the duration of effects equally.");
-i(<item:seasonals:sweet_berry_milkshake>, s + "shuffles active effects' levels and durations.");
+// i(<item:seasonals:pumpkin_milkshake>, s + "redistributes the duration of effects equally.");
+// i(<item:seasonals:sweet_berry_milkshake>, s + "shuffles active effects' levels and durations.");
 
 // Unique Functional Items
 i(<item:atmospheric:passion_vine_coil>, "Can be thrown. When it lands on a block, it drops down a vine you can climb.");
 i(<item:atmospheric:crustose>, "Can be created by growing Aspen Saplings in a 2x2 pattern.");
 
-i(<item:antiqueatlas:empty_antique_atlas>, "Works as a sort of map that catalogues where you go. Definitely a must have if you're going exploring!");
+// i(<item:antiqueatlas:empty_antique_atlas>, "Works as a sort of map that catalogues where you go. Definitely a must have if you're going exploring!");
 
 i(<item:charm:bat_bucket>, "Right-click a bat with an empty bucket to capture it, when you release it, you can see all nearby mobs.");
 i(<item:charm:ender_pearl_block>, "Eating a Chorus Fruit close to one will teleport you to it instead.");
@@ -671,10 +671,10 @@ i(<item:charm:netherite_nugget>, "Can be used to reset item repair cost in an an
 i(<item:environmental:koi_bucket>, "When near a Koi fish, players are given a Serenity effect, which prevents nearby mob spawns. Find these fish in Blossom Highlands.");
 i(<item:environmental:slabfish_bucket>, "Slabfish can be found in Swamps and Marshes, and tamed using Tropical Fish.");
 
-i(<item:inspirations:charged_arrow>, "Produces a 1 second long redstone signal if it hits a block.");
-i(<item:inspirations:north_compass>, "Always points to the north.");
-i(<item:inspirations:redstone_charger>, "Right click a block to make 1 second long redstone signal. If sneaking, it's 1 redstone tick instead.");
-i(<item:inspirations:collector>, "Pulls items dropped or in inventories in front of it when given a redstone signal.");
+// i(<item:inspirations:charged_arrow>, "Produces a 1 second long redstone signal if it hits a block.");
+// i(<item:inspirations:north_compass>, "Always points to the north.");
+// i(<item:inspirations:redstone_charger>, "Right click a block to make 1 second long redstone signal. If sneaking, it's 1 redstone tick instead.");
+// i(<item:inspirations:collector>, "Pulls items dropped or in inventories in front of it when given a redstone signal.");
 
 i(<item:quark:ender_watcher>, "Emits a redstone signal when looked at by a player. The closer to the middle, the higher the signal.");
 i(<item:quark:feeding_trough>, "Animals can eat and breed from this. If there's over 32 animals in a 10 block radius, they won't breed though!");
@@ -697,141 +697,141 @@ i(<item:quark:abacus>, "Right Click a block to set the source - from there, the 
 i(<item:quark:crate>, "Can hold up to 1000 items. Unlike Chests, the amount of slots expands based on the different items you put in, so it's good for holding a high variety of things.");
 i(<item:quark:chute>, "Can receive items with Hoppers and the like. Any items that end up in it are immediately ejected downwards into the world.");
 
-i(<item:structuredcrafting:structured_crafter>, "When powered, crafts based on the recipe in blocks or items in chests behind it in a 3x3 area.");
+// i(<item:structuredcrafting:structured_crafter>, "When powered, crafts based on the recipe in blocks or items in chests behind it in a 3x3 area.");
 
-i(<item:supplementaries:blackboard>, "You can draw in this.");
-i(<item:supplementaries:clock_block>, "Tells the time. Observers and comparators can interact with it.");
-i(<item:supplementaries:crank>, "Like a lever, but with 16 different states.");
-i(<item:supplementaries:faucet>, "When powered, pulls items or liquid from the block behind it. Can put liquids into Jars.");
-i(<item:supplementaries:firefly_jar>, "Capture a Firefly with a Jar to get this.");
-i(<item:supplementaries:flute>, "Summons any non-sitting pets around you when used. Can also right click a pet to bind it to said pet.");
-i(<item:supplementaries:hourglass>, "Fill it with sand or other dusts, outputs the remaining time with a comparator, and can be reset with a Turn Table.");
-i(<item:supplementaries:jar>, "Can store many liquids, potion, stew, cookies, fish, or tiny slimes.");
-i(<item:supplementaries:jar_tinted>, "Can capture vexes and endermites.");
-i(<item:supplementaries:notice_board>, "Can display maps, or the first page of a written book.");
-i(<item:supplementaries:pedestal>, "Can display items, including their names. Can also be stacked vertically for decor.");
-i(<item:supplementaries:piston_launcher>, "Pushes entities, like the original piston mod! You can also jump on it while it's extended.");
-i(<item:supplementaries:planter>, "Can grow crops just like irrigated farmland.");
-i(<item:supplementaries:planter_rich>, "Can grow crops just like irrigated farmland, but with the faster speed of rich soil.");
-i(<item:supplementaries:redstone_illuminator>, "Outputs a lower light level the higher the redstone signal its given.");
-i(<item:supplementaries:sack>, "Can store items, you can take it with you like a shulker box. If you try to carry multiple, it'll slow you down.");
-i(<item:supplementaries:turn_table>, "While powered, keeps rotating whatever block is attached to it. Also rotates entities on top. Right click to invert the rotation.");
-i(<item:supplementaries:wind_vane>, "Outputs a redstone signal when raining.");
-i(<item:supplementaries:bamboo_spikes>, "Can be placed in any direction. Damages entities that pass through them and deals extra fall damage. Can be tipped with potions.");
-i(<item:supplementaries:bamboo_spikes_tipped>, "Can be placed in any direction. Damages entities that pass through them, deals extra fall damage, and inflicts the potion effect.");
-i(<item:supplementaries:bellows>, "When powered fans fires and furnaces to keep them burning longer or faster. Can also push items with the wind.");
-i(<item:supplementaries:key>, "Can be used to lock Safes. Name it in an anvil before usage.");
-i(<item:supplementaries:rope_arrow>, "Places down ropes wherever it lands so you can climb up.");
-i(<item:supplementaries:pulley_block>, "Can be given ropes or chains. When rotated with a Turn Table, can drop or pull said ropes or chains back up.");
-i(<item:supplementaries:magma_cream_block>, "Works like a slime block when moved by pistons, but only one of the sides is sticky.");
-i(<item:supplementaries:bomb>, "Can be thrown, explodes on contact for explosive damage without breaking blocks.");
-i(<item:supplementaries:raked_gravel>, "Can be gotten by using a Hoe on Gravel. Doing it from different directions creates unique patterns.");
-i(<item:supplementaries:flower_box>, "Can be placed on the floor or the side of a block. Holds up to 3 flowers.");
+// i(<item:supplementaries:blackboard>, "You can draw in this.");
+// i(<item:supplementaries:clock_block>, "Tells the time. Observers and comparators can interact with it.");
+// i(<item:supplementaries:crank>, "Like a lever, but with 16 different states.");
+// i(<item:supplementaries:faucet>, "When powered, pulls items or liquid from the block behind it. Can put liquids into Jars.");
+// i(<item:supplementaries:firefly_jar>, "Capture a Firefly with a Jar to get this.");
+// i(<item:supplementaries:flute>, "Summons any non-sitting pets around you when used. Can also right click a pet to bind it to said pet.");
+// i(<item:supplementaries:hourglass>, "Fill it with sand or other dusts, outputs the remaining time with a comparator, and can be reset with a Turn Table.");
+// i(<item:supplementaries:jar>, "Can store many liquids, potion, stew, cookies, fish, or tiny slimes.");
+// i(<item:supplementaries:jar_tinted>, "Can capture vexes and endermites.");
+// i(<item:supplementaries:notice_board>, "Can display maps, or the first page of a written book.");
+// i(<item:supplementaries:pedestal>, "Can display items, including their names. Can also be stacked vertically for decor.");
+// i(<item:supplementaries:piston_launcher>, "Pushes entities, like the original piston mod! You can also jump on it while it's extended.");
+// i(<item:supplementaries:planter>, "Can grow crops just like irrigated farmland.");
+// i(<item:supplementaries:planter_rich>, "Can grow crops just like irrigated farmland, but with the faster speed of rich soil.");
+// i(<item:supplementaries:redstone_illuminator>, "Outputs a lower light level the higher the redstone signal its given.");
+// i(<item:supplementaries:sack>, "Can store items, you can take it with you like a shulker box. If you try to carry multiple, it'll slow you down.");
+// i(<item:supplementaries:turn_table>, "While powered, keeps rotating whatever block is attached to it. Also rotates entities on top. Right click to invert the rotation.");
+// i(<item:supplementaries:wind_vane>, "Outputs a redstone signal when raining.");
+// i(<item:supplementaries:bamboo_spikes>, "Can be placed in any direction. Damages entities that pass through them and deals extra fall damage. Can be tipped with potions.");
+// i(<item:supplementaries:bamboo_spikes_tipped>, "Can be placed in any direction. Damages entities that pass through them, deals extra fall damage, and inflicts the potion effect.");
+// i(<item:supplementaries:bellows>, "When powered fans fires and furnaces to keep them burning longer or faster. Can also push items with the wind.");
+// i(<item:supplementaries:key>, "Can be used to lock Safes. Name it in an anvil before usage.");
+// i(<item:supplementaries:rope_arrow>, "Places down ropes wherever it lands so you can climb up.");
+// i(<item:supplementaries:pulley_block>, "Can be given ropes or chains. When rotated with a Turn Table, can drop or pull said ropes or chains back up.");
+// i(<item:supplementaries:magma_cream_block>, "Works like a slime block when moved by pistons, but only one of the sides is sticky.");
+// i(<item:supplementaries:bomb>, "Can be thrown, explodes on contact for explosive damage without breaking blocks.");
+// i(<item:supplementaries:raked_gravel>, "Can be gotten by using a Hoe on Gravel. Doing it from different directions creates unique patterns.");
+// i(<item:supplementaries:flower_box>, "Can be placed on the floor or the side of a block. Holds up to 3 flowers.");
 i(<item:minecraft:rotten_flesh>, "Can be used to turn a Skeleton Horse into a Zombie Horse, by feeding it an entire stack.");
-i(<item:supplementaries:slingshot>, "When used, fires the first block in your hotbar as a projectile. Try using it to throw torches!");
+// i(<item:supplementaries:slingshot>, "When used, fires the first block in your hotbar as a projectile. Try using it to throw torches!");
 
-s = "Works like a normal wooden one when unpowered. When powered, ignores interactions.";
-i(<item:supplementaries:gold_door>, s);
-i(<item:supplementaries:gold_trapdoor>, s);
+// s = "Works like a normal wooden one when unpowered. When powered, ignores interactions.";
+// i(<item:supplementaries:gold_door>, s);
+// i(<item:supplementaries:gold_trapdoor>, s);
 
-s = "Can be locked with Keys. If locked, only players with the appropriately named key can open it.";
-i(<item:supplementaries:safe>, s);
-i(<item:supplementaries:netherite_door>, s);
-i(<item:supplementaries:netherite_trapdoor>, s);
+// s = "Can be locked with Keys. If locked, only players with the appropriately named key can open it.";
+// i(<item:supplementaries:safe>, s);
+// i(<item:supplementaries:netherite_door>, s);
+// i(<item:supplementaries:netherite_trapdoor>, s);
 
-i(<item:paraglider:paraglider>, "Can be found on Wild Tower chests only. When held, right click to glide.");
+// i(<item:paraglider:paraglider>, "Can be found on Wild Tower chests only. When held, right click to glide.");
 
-i(<item:conjurer_illager:conjurer_hat>, "This is the trademark accessory of the Conjurer illager, who resides in its theatre, located in Dark Forests. While worn, it keeps Bad Omens away.");
+// i(<item:conjurer_illager:conjurer_hat>, "This is the trademark accessory of the Conjurer illager, who resides in its theatre, located in Dark Forests. While worn, it keeps Bad Omens away.");
 
-i(<item:frozenup:frozen_truffle>, "Chilloos are known to scavenge this and other crops from the ground. You can find these creatures in cold biomes and use the Frozen Truffles to tame them.");
-i(<item:frozenup:chilloo_feather>, "Chilloos shed their feathers occasionally. You can find them in cold biomes and tame them with Frozen Truffles.");
+// i(<item:frozenup:frozen_truffle>, "Chilloos are known to scavenge this and other crops from the ground. You can find these creatures in cold biomes and use the Frozen Truffles to tame them.");
+// i(<item:frozenup:chilloo_feather>, "Chilloos shed their feathers occasionally. You can find them in cold biomes and tame them with Frozen Truffles.");
 
-i(<item:alexsmobs:music_disc_thime>, "Can be acquired from bartering with Seals. Consult an Animal Dictionary for more information.");
-i(<item:alexsmobs:music_disc_daze>, "Can be acquired by placing any Music Disc inside a Capsid.");
+// i(<item:alexsmobs:music_disc_thime>, "Can be acquired from bartering with Seals. Consult an Animal Dictionary for more information.");
+// i(<item:alexsmobs:music_disc_daze>, "Can be acquired by placing any Music Disc inside a Capsid.");
 i(<item:environmental:music_disc_leaving_home>, "Can be acquired by having a Skeleton kill a Wandering Trader.");
 i(<item:environmental:music_disc_slabrave>, "Can be acquired by giving another Music Disc to a Slabfish.");
 i(<item:endergetic:music_disc_kilobyte>, "Can be acquired from chests in End Cities.");
 i(<item:berry_good:music_disc_fox>, "Can be acquired from Foxes, who randomly spawn with it in their mouths.");
-i(<item:infernalexp:music_disc_soul_spunk>, "Is rarely dropped by Embodies, which spawn in Soul Sand Valleys.");
-i(<item:infernalexp:music_disc_flush>, "Is rarely dropped by Glowsquitoes, which spawn in the Glowstone Canyon biome in the Nether.");
+// i(<item:infernalexp:music_disc_soul_spunk>, "Is rarely dropped by Embodies, which spawn in Soul Sand Valleys.");
+// i(<item:infernalexp:music_disc_flush>, "Is rarely dropped by Glowsquitoes, which spawn in the Glowstone Canyon biome in the Nether.");
 
-s = "Can be cooked by placing above a fire or campfire. This will result in a slight loss of fish.";
-i(<item:fish_in_planks:cod_barrel>, s);
-i(<item:fish_in_planks:lionfish_barrel>, s);
-i(<item:fish_in_planks:pike_barrel>, s);
-i(<item:fish_in_planks:pufferfish_barrel>, s);
-i(<item:fish_in_planks:salmon_barrel>, s);
-i(<item:fish_in_planks:tropical_fish_barrel>, s);
-i(<item:fish_in_planks:perch_barrel>, s);
-i(<item:fish_in_planks:koi_barrel>, s);
+// s = "Can be cooked by placing above a fire or campfire. This will result in a slight loss of fish.";
+// i(<item:fish_in_planks:cod_barrel>, s);
+// i(<item:fish_in_planks:lionfish_barrel>, s);
+// i(<item:fish_in_planks:pike_barrel>, s);
+// i(<item:fish_in_planks:pufferfish_barrel>, s);
+// i(<item:fish_in_planks:salmon_barrel>, s);
+// i(<item:fish_in_planks:tropical_fish_barrel>, s);
+// i(<item:fish_in_planks:perch_barrel>, s);
+// i(<item:fish_in_planks:koi_barrel>, s);
 
-i(<item:iron_and_gold:raw_iron>, "Drops from Iron Ore when mined without Silk Touch. Using Fortune increases the amount dropped.");
-i(<item:iron_and_gold:raw_gold>, "Drops from Gold Ore when mined without Silk Touch. Using Fortune increases the amount dropped.");
+// i(<item:iron_and_gold:raw_iron>, "Drops from Iron Ore when mined without Silk Touch. Using Fortune increases the amount dropped.");
+// i(<item:iron_and_gold:raw_gold>, "Drops from Gold Ore when mined without Silk Touch. Using Fortune increases the amount dropped.");
 
-i(<item:farsight_spyglasses:spyglass>, "Can be used to zoom in wherever you're looking at.");
+// i(<item:farsight_spyglasses:spyglass>, "Can be used to zoom in wherever you're looking at.");
 
-i(<item:fruitful:flowering_oak_sapling>, "Can be found in Forests and more commonly in Flowering Forests. Can be pollinated by bees during full moons to sprout apples.");
+// i(<item:fruitful:flowering_oak_sapling>, "Can be found in Forests and more commonly in Flowering Forests. Can be pollinated by bees during full moons to sprout apples.");
 
-i(<item:architects_palette:entrails>, "Can be acquired by trading with a Butcher Villager");
-i(<item:architects_palette:warpstone>, "Can be acquired by sending a Clay Block through a Nether Portal.");
-i(<item:architects_palette:withered_bone>, "Drops from Wither Skeletons. Not sure what you expected.");
-i(<item:architects_palette:moonstone>, "Sold only by the Wandering Trader. Glows at night.");
-i(<item:architects_palette:sunstone>, "Sold only by the Wandering Trader. Glows during the day.");
-i(<item:architects_palette:chiseled_abyssaline_bricks>, "Serves as the main source for lighting up Abyssaline blocks. Can be powered on by using a Heart of the Sea on it.");
+// i(<item:architects_palette:entrails>, "Can be acquired by trading with a Butcher Villager");
+// i(<item:architects_palette:warpstone>, "Can be acquired by sending a Clay Block through a Nether Portal.");
+// i(<item:architects_palette:withered_bone>, "Drops from Wither Skeletons. Not sure what you expected.");
+// i(<item:architects_palette:moonstone>, "Sold only by the Wandering Trader. Glows at night.");
+// i(<item:architects_palette:sunstone>, "Sold only by the Wandering Trader. Glows during the day.");
+// i(<item:architects_palette:chiseled_abyssaline_bricks>, "Serves as the main source for lighting up Abyssaline blocks. Can be powered on by using a Heart of the Sea on it.");
 
-s = "Can be carved out of an Acacia Totem by taking an axe to it.";
-i(<item:architects_palette:grinning_acacia_totem>, s);
-i(<item:architects_palette:placid_acacia_totem>, s);
-i(<item:architects_palette:shocked_acacia_totem>, s);
+// s = "Can be carved out of an Acacia Totem by taking an axe to it.";
+// i(<item:architects_palette:grinning_acacia_totem>, s);
+// i(<item:architects_palette:placid_acacia_totem>, s);
+// i(<item:architects_palette:shocked_acacia_totem>, s);
 
-s = "Can be lit up by adjacent Abyssaline blocks, starting with a powered Chiseled Abyssaline Brick block.";
-i(<item:architects_palette:abyssaline>, s);
-i(<item:architects_palette:abyssaline_bricks>, s);
-i(<item:architects_palette:abyssaline_pillar>, s);
-i(<item:architects_palette:abyssaline_brick_slab>, s);
-i(<item:architects_palette:abyssaline_tiles>, s);
-i(<item:architects_palette:abyssaline_tile_slab>, s);
-i(<item:architects_palette:abyssaline_lamp>, s);
-i(<item:architects_palette:abyssaline_brick_vertical_slab>, s);
-i(<item:architects_palette:abyssaline_tile_vertical_slab>, s);
+// s = "Can be lit up by adjacent Abyssaline blocks, starting with a powered Chiseled Abyssaline Brick block.";
+// i(<item:architects_palette:abyssaline>, s);
+// i(<item:architects_palette:abyssaline_bricks>, s);
+// i(<item:architects_palette:abyssaline_pillar>, s);
+// i(<item:architects_palette:abyssaline_brick_slab>, s);
+// i(<item:architects_palette:abyssaline_tiles>, s);
+// i(<item:architects_palette:abyssaline_tile_slab>, s);
+// i(<item:architects_palette:abyssaline_lamp>, s);
+// i(<item:architects_palette:abyssaline_brick_vertical_slab>, s);
+// i(<item:architects_palette:abyssaline_tile_vertical_slab>, s);
 
-s = "Can be found in the Glowstone Canyon biome in the Nether.";
-i(<item:infernalexp:dimstone>, s);
-i(<item:infernalexp:dullstone>, s);
-i(<item:infernalexp:luminous_wart_block>, s);
-i(<item:infernalexp:glowdust_sand>, s);
-i(<item:infernalexp:glowdust>, s);
-i(<item:infernalexp:glowdust_stone>, s);
-i(<item:infernalexp:crumbling_blackstone>, s);
-i(<item:infernalexp:dullthorns>, s);
-i(<item:infernalexp:luminous_fungus>, s);
+// s = "Can be found in the Glowstone Canyon biome in the Nether.";
+// i(<item:infernalexp:dimstone>, s);
+// i(<item:infernalexp:dullstone>, s);
+// i(<item:infernalexp:luminous_wart_block>, s);
+// i(<item:infernalexp:glowdust_sand>, s);
+// i(<item:infernalexp:glowdust>, s);
+// i(<item:infernalexp:glowdust_stone>, s);
+// i(<item:infernalexp:crumbling_blackstone>, s);
+// i(<item:infernalexp:dullthorns>, s);
+// i(<item:infernalexp:luminous_fungus>, s);
 
-s = "Can be acquired by using a hoe on the respective block.";
-i(<item:infernalexp:crimson_nylium_path>, s);
-i(<item:infernalexp:warped_nylium_path>, s);
-i(<item:infernalexp:soul_soil_path>, s);
+// s = "Can be acquired by using a hoe on the respective block.";
+// i(<item:infernalexp:crimson_nylium_path>, s);
+// i(<item:infernalexp:warped_nylium_path>, s);
+// i(<item:infernalexp:soul_soil_path>, s);
 
-i(<item:infernalexp:infernal_painting>, "Displays different art from the regular one.");
-i(<item:infernalexp:raw_hogchop>, "Dropped by Hoglins.");
-i(<item:infernalexp:glowcoal>, "Dropped by Glowsquitoes, which can be found in the Glowstone Canyon biome in the Nether.");
-i(<item:infernalexp:glownuggets>, "Dropped by mining Dullstone or Dimstone, which can be found in the Glowstone Canyon biome in the Nether.");
-i(<item:infernalexp:blindsight_tongue>, "Dropped by Blindsights, which can be found in the Glowstone Canyon biome in the Nether.");
-i(<item:infernalexp:moth_dust>, "Dropped by Glow Moths, which can be found in the Glowstone Canyon biome in the Nether.");
-i(<item:infernalexp:molten_gold_cluster>, "Can be acquired through feeding Volines gold items by dropping them. Volines can be found in Nether Wastes and Crimson Forests.");
-i(<item:infernalexp:glowsilk>, "Can be harvested from Glowsilk Cocoons and used to repair items in an anvil.");
-i(<item:infernalexp:glowsilk_cocoon>, "Can be found underground in the Nether, similarly to Ancient Debris, and harvested using a Diamond or Netherite hoe.");
-i(<item:infernalexp:soul_salt_clump>, "Dropped by Embodies, which can be found in Soul Sand Valleys.");
-i(<item:infernalexp:ascus_bomb>, "Dropped by Shroomloins, which can be found in Crimson Forests. Can be thrown to release an Infection cloud. Infection is dangerous and contagious, so be careful.");
-i(<item:infernalexp:glowsilk_bow>, "An upgrade to the standard Bow. Shoots twice as far and tips normal arrows with Luminance. Arrows with Luminance emit light and can be used to light up far away areas.");
-i(<item:infernalexp:blindsight_tongue_whip>, "A melee weapon with higher reach and knockback than usual. Must be charged by right clicking before using.");
-i(<item:infernalexp:shroomlight_fungus>, "Can be found on grown fungi in the Nether, or created by using Bone Meal on a Shroomlight block.");
-i(<item:infernalexp:cured_jerky>, "Gives 10 seconds of Speed II when eaten.");
-i(<item:infernalexp:trapped_glowdust_sand>, "Can be found in the Glowstone Canyone biome in the Nether. Be careful, as it falls when you walk close to it.");
-i(<item:infernalexp:basalt_iron_ore>, "Can be found in the Basalt Deltas biome in the Nether.");
-i(<item:infernalexp:basaltic_magma>, "Can be found in the Basalt Deltas biome in the Nether. Can be used to warm Striders or create a bubble column.");
-i(<item:infernalexp:quartz_glass>, "Can withstand explosions better than regular glass.");
-i(<item:infernalexp:quartz_glass_pane>, "Can withstand explosions better than regular glass.");
+// i(<item:infernalexp:infernal_painting>, "Displays different art from the regular one.");
+// i(<item:infernalexp:raw_hogchop>, "Dropped by Hoglins.");
+// i(<item:infernalexp:glowcoal>, "Dropped by Glowsquitoes, which can be found in the Glowstone Canyon biome in the Nether.");
+// i(<item:infernalexp:glownuggets>, "Dropped by mining Dullstone or Dimstone, which can be found in the Glowstone Canyon biome in the Nether.");
+// i(<item:infernalexp:blindsight_tongue>, "Dropped by Blindsights, which can be found in the Glowstone Canyon biome in the Nether.");
+// i(<item:infernalexp:moth_dust>, "Dropped by Glow Moths, which can be found in the Glowstone Canyon biome in the Nether.");
+// i(<item:infernalexp:molten_gold_cluster>, "Can be acquired through feeding Volines gold items by dropping them. Volines can be found in Nether Wastes and Crimson Forests.");
+// i(<item:infernalexp:glowsilk>, "Can be harvested from Glowsilk Cocoons and used to repair items in an anvil.");
+// i(<item:infernalexp:glowsilk_cocoon>, "Can be found underground in the Nether, similarly to Ancient Debris, and harvested using a Diamond or Netherite hoe.");
+// i(<item:infernalexp:soul_salt_clump>, "Dropped by Embodies, which can be found in Soul Sand Valleys.");
+// i(<item:infernalexp:ascus_bomb>, "Dropped by Shroomloins, which can be found in Crimson Forests. Can be thrown to release an Infection cloud. Infection is dangerous and contagious, so be careful.");
+// i(<item:infernalexp:glowsilk_bow>, "An upgrade to the standard Bow. Shoots twice as far and tips normal arrows with Luminance. Arrows with Luminance emit light and can be used to light up far away areas.");
+// i(<item:infernalexp:blindsight_tongue_whip>, "A melee weapon with higher reach and knockback than usual. Must be charged by right clicking before using.");
+// i(<item:infernalexp:shroomlight_fungus>, "Can be found on grown fungi in the Nether, or created by using Bone Meal on a Shroomlight block.");
+// i(<item:infernalexp:cured_jerky>, "Gives 10 seconds of Speed II when eaten.");
+// i(<item:infernalexp:trapped_glowdust_sand>, "Can be found in the Glowstone Canyone biome in the Nether. Be careful, as it falls when you walk close to it.");
+// i(<item:infernalexp:basalt_iron_ore>, "Can be found in the Basalt Deltas biome in the Nether.");
+// i(<item:infernalexp:basaltic_magma>, "Can be found in the Basalt Deltas biome in the Nether. Can be used to warm Striders or create a bubble column.");
+// i(<item:infernalexp:quartz_glass>, "Can withstand explosions better than regular glass.");
+// i(<item:infernalexp:quartz_glass_pane>, "Can withstand explosions better than regular glass.");
 
-i(<item:storagedrawers:oak_full_drawers_1>, "Can store up to 1000 stacks of any one item. Items can be added by right-clicking and removed by left-clicking. Sneak while doing so to move entire stacks.");
+// i(<item:storagedrawers:oak_full_drawers_1>, "Can store up to 1000 stacks of any one item. Items can be added by right-clicking and removed by left-clicking. Sneak while doing so to move entire stacks.");
 
 i(<item:bundlesplus:bundle>, "Can hold up to 64 items. Right click items on it to add them and right click the Bundle item to remove them.");

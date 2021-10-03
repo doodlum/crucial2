@@ -488,33 +488,33 @@
 		"Layer Limit" = 16
 
 [world]
-	"New Stone Types" = true
-	"Lush Underground Biome" = true
+	"New Stone Types" = false
+	"Lush Underground Biome" = false
 	"Big Dungeon" = true
-	Speleothems = true
-	"Elder Prismarine Underground Biome" = true
+	Speleothems = false
+	"Elder Prismarine Underground Biome" = false
 	"Blossom Trees" = false
-	"Sandstone Underground Biome" = true
-	"Glowshroom Underground Biome" = true
-	"Permafrost Underground Biome" = true
-	"Underground Clay" = true
-	"Slime Underground Biome" = true
+	"Sandstone Underground Biome" = false
+	"Glowshroom Underground Biome" = false
+	"Permafrost Underground Biome" = false
+	"Underground Clay" = false
+	"Slime Underground Biome" = false
 	"Fairy Rings" = true
-	"Chorus Vegetation" = true
+	"Chorus Vegetation" = false
 	Crevices = true
-	"Nether Obsidian Spikes" = true
+	"Nether Obsidian Spikes" = false
 	"Mega Caves" = true
 	"Realistic World Gen" = true
-	Biotite = true
+	Biotite = false
 	"Big Stone Clusters" = true
-	"Brimstone Underground Biome" = true
-	"Cave Crystal Underground Biome" = true
-	"Spiral Spires" = true
-	"Overgrown Underground Biome" = true
-	"Cave Roots" = true
-	"Spider Nest Underground Biome" = true
-	Deepslate = true
-	"Monster Box" = true
+	"Brimstone Underground Biome" = false
+	"Cave Crystal Underground Biome" = false
+	"Spiral Spires" = false
+	"Overgrown Underground Biome" = false
+	"Cave Roots" = false
+	"Spider Nest Underground Biome" = false
+	Deepslate = false
+	"Monster Box" = false
 
 	[world.monster_box]
 		#The chance for the monster box generator to try and place one in a chunk, 1 is 100%
