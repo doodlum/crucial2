@@ -18,7 +18,7 @@
 		# Replaces the usual bedrock generation pattern with flat layers.
 		#     Activates in all whitelisted dimensions.
 		# Default: true
-		"Flatten Bedrock" = true
+		"Flatten Bedrock" = false
 		# The width of the bedrock layer. Only works if Flatten Bedrock is true.
 		#Range: 0 ~ 256
 		"Bedrock Layer Width" = 1
