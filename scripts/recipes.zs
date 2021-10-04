@@ -1,4 +1,4 @@
-// var _string = <item:minecraft:string>;
+var _string = <item:minecraft:string>;
 // var adzuki_cookie = <item:cookielicious:adzuki_cookie>;
 // var air = <item:minecraft:air>;
 // var alex_drops = <tag:items:crucial:alex_drops>;
@@ -12,7 +12,7 @@
 // var basalt_tiles = <item:architects_palette:basalt_tiles>;
 // var birch_sapling = <item:minecraft:birch_sapling>;
 // var blank_acacia_totem = <item:architects_palette:blank_acacia_totem>;
-// var blaze_powder = <item:minecraft:blaze_powder>;
+var blaze_powder = <item:minecraft:blaze_powder>;
 // var blaze_rod = <item:minecraft:blaze_rod>;
 // var bone_block = <item:minecraft:bone_block>;
 // var boof_block = <item:endergetic:boof_block>; 
@@ -45,9 +45,9 @@
 // var diamond = <tag:items:forge:gems/diamond>;
 // var dried_vanilla_pods = <item:neapolitan:dried_vanilla_pods>;
 // var eggs = <tag:items:forge:eggs>;
-// var emerald = <tag:items:forge:gems/emerald>;
-// var ender_eye = <item:minecraft:ender_eye>;
-// var ender_pearl = <item:minecraft:ender_pearl>;
+var emerald = <tag:items:forge:gems/emerald>;
+var ender_eye = <item:minecraft:ender_eye>;
+var ender_pearl = <item:minecraft:ender_pearl>;
 // var glass_item_frame = <item:quark:glass_item_frame>;
 // var globe = <item:supplementaries:globe>;
 // var globe_pattern = <item:minecraft:globe_banner_pattern>;
@@ -57,7 +57,7 @@
 // var gooseberry_jam = <item:bayou_blues:gooseberry_jam>;
 // var gooseberry_jam_cookie = <item:bayou_blues:gooseberry_jam_cookie>;
 // var grimwood_sapling = <item:atmospheric:grimwood_sapling>;
-// var honeycomb = <item:minecraft:honeycomb>;
+var honeycomb = <item:minecraft:honeycomb>;
 // var ice_bricks = <item:environmental:ice_bricks>;
 // var infernal_painting = <item:infernalexp:infernal_painting>;
 // var iron_ingot = <tag:items:forge:ingots/iron>;
@@ -90,7 +90,7 @@
 // var polished_basalt = <item:minecraft:polished_basalt>;
 // var polished_packed_ice = <item:architects_palette:polished_packed_ice>;
 // var potato = <item:minecraft:potato>;
-// var prismarine_crystals = <item:minecraft:prismarine_crystals>;
+var prismarine_crystals = <item:minecraft:prismarine_crystals>;
 // var raw_gold = <item:iron_and_gold:raw_gold>;
 // var raw_iron = <item:iron_and_gold:raw_iron>;
 // var redstone = <tag:items:forge:dusts/redstone>;
@@ -134,13 +134,13 @@
 // 		 [koi, koi, koi],
 // 		 [koi, koi, koi]]);
 
-// // Eye of Ender Needs Four Elements
-// #snip modloaded caverns_and_chasms
-// craftingTable.removeRecipe(ender_eye);
-// craftingTable.addShapeless("cool_ender_eye", 
-// 		ender_eye, 
-// 		[ender_pearl, blaze_powder, prismarine_crystals, emerald, honeycomb]);
-// #snip end
+// Eye of Ender Needs Four Elements
+#snip modloaded caverns_and_chasms
+craftingTable.removeRecipe(ender_eye);
+craftingTable.addShapeless("cool_ender_eye", 
+		ender_eye, 
+		[ender_pearl, blaze_powder, prismarine_crystals, emerald, honeycomb]);
+#snip end
 
 // // Post-end Structured Crafter
 // craftingTable.removeRecipe(crafter);
