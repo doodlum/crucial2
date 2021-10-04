@@ -1,5 +1,5 @@
 #Adds custom music tracks that play in certain situations.
-"Music enabled" = true
+"Music enabled" = false
 #Ambient sounds play according to the biome, time of day and depth below surface.
 "Sounds enabled" = true
 
