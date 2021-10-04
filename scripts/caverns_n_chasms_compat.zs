@@ -35,26 +35,26 @@ var quark_mossycobblebrick = <item:quark:mossy_cobblestone_bricks>;
 // craftingTable.removeRecipe(<item:caverns_and_chasms:golden_lantern>);
 
 # Edit Overlapping Content
-craftingTable.removeRecipe(cc_cobblebrick);
-craftingTable.addShaped("cc_cobblebrick_compat", 
-		cc_cobblebrick * 4,  
-		[[quark_cobblebrick, quark_cobblebrick],
-		 [quark_cobblebrick, quark_cobblebrick]]);
-craftingTable.removeRecipe(quark_dirtbrick);
-craftingTable.addShaped("quark_dirtbrick_compat", 
-		quark_dirtbrick * 4,  
-		[[dirt, dirt],
-		 [dirt, dirt]]);
-craftingTable.removeRecipe(cc_dirtbrick);
-craftingTable.addShaped("cc_dirtbrick_compat", 
-		cc_dirtbrick * 4,  
-		[[quark_dirtbrick, quark_dirtbrick],
-		 [quark_dirtbrick, quark_dirtbrick]]);
-craftingTable.removeByName("caverns_and_chasms:cobblestone/mossy_cobblestone_bricks/mossy_cobblestone_bricks");
-craftingTable.addShaped("cc_mossycobblebrick_compat", 
-		cc_mossycobblebrick * 4,  
-		[[quark_mossycobblebrick, quark_mossycobblebrick],
-		 [quark_mossycobblebrick, quark_mossycobblebrick]]);
+// craftingTable.removeRecipe(cc_cobblebrick);
+// craftingTable.addShaped("cc_cobblebrick_compat", 
+// 		cc_cobblebrick * 4,  
+// 		[[quark_cobblebrick, quark_cobblebrick],
+// 		 [quark_cobblebrick, quark_cobblebrick]]);
+// craftingTable.removeRecipe(quark_dirtbrick);
+// craftingTable.addShaped("quark_dirtbrick_compat", 
+// 		quark_dirtbrick * 4,  
+// 		[[dirt, dirt],
+// 		 [dirt, dirt]]);
+// craftingTable.removeRecipe(cc_dirtbrick);
+// craftingTable.addShaped("cc_dirtbrick_compat", 
+// 		cc_dirtbrick * 4,  
+// 		[[quark_dirtbrick, quark_dirtbrick],
+// 		 [quark_dirtbrick, quark_dirtbrick]]);
+// craftingTable.removeByName("caverns_and_chasms:cobblestone/mossy_cobblestone_bricks/mossy_cobblestone_bricks");
+// craftingTable.addShaped("cc_mossycobblebrick_compat", 
+// 		cc_mossycobblebrick * 4,  
+// 		[[quark_mossycobblebrick, quark_mossycobblebrick],
+// 		 [quark_mossycobblebrick, quark_mossycobblebrick]]);
 
 # Change Deco. Blocks Rocky Dirt to be like C&C Rocky Dirt
 // craftingTable.removeRecipe(<item:caverns_and_chasms:rocky_dirt>);
