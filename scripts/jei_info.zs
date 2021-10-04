@@ -655,18 +655,18 @@ i(<item:quark:slime_in_a_bucket>, "Right click a tiny slime to capture it. It ge
 i(<item:atmospheric:passion_vine_coil>, "Can be thrown. When it lands on a block, it drops down a vine you can climb.");
 i(<item:atmospheric:crustose>, "Can be created by growing Aspen Saplings in a 2x2 pattern.");
 
-// i(<item:antiqueatlas:empty_antique_atlas>, "Works as a sort of map that catalogues where you go. Definitely a must have if you're going exploring!");
+i(<item:antiqueatlas:empty_antique_atlas>, "Works as a sort of map that catalogues where you go. Definitely a must have if you're going exploring!");
 
-i(<item:charm:bat_bucket>, "Right-click a bat with an empty bucket to capture it, when you release it, you can see all nearby mobs.");
-i(<item:charm:ender_pearl_block>, "Eating a Chorus Fruit close to one will teleport you to it instead.");
-i(<item:charm:endermite_powder>, "Dropped by Endermites sometimes, right click to help locate the nearest End City.");
-i(<item:charm:glowball>, "Can be thrown, and leaves a little glowy blob where it lands.");
-i(<item:charm:gunpowder_block>, "Falls like sand or gravel, and dissolves into air if near lava.");
-i(<item:charm:raid_horn>, "A rare drop from patrol leaders. Can be used to cancel raids, or to summon patrols.");
-i(<item:charm:redstone_lantern>, "Turns on only when powered.");
-i(<item:charm:redstone_sand>, "Emits a redstone signal like a redstone block, and also falls like sand or gravel.");
-i(<item:charm:sugar_block>, "Falls like sand or gravel, and dissolves into air if near water.");
-i(<item:charm:netherite_nugget>, "Can be used to reset item repair cost in an anvil.");
+// i(<item:charm:bat_bucket>, "Right-click a bat with an empty bucket to capture it, when you release it, you can see all nearby mobs.");
+// i(<item:charm:ender_pearl_block>, "Eating a Chorus Fruit close to one will teleport you to it instead.");
+// i(<item:charm:endermite_powder>, "Dropped by Endermites sometimes, right click to help locate the nearest End City.");
+// i(<item:charm:glowball>, "Can be thrown, and leaves a little glowy blob where it lands.");
+// i(<item:charm:gunpowder_block>, "Falls like sand or gravel, and dissolves into air if near lava.");
+// i(<item:charm:raid_horn>, "A rare drop from patrol leaders. Can be used to cancel raids, or to summon patrols.");
+// i(<item:charm:redstone_lantern>, "Turns on only when powered.");
+// i(<item:charm:redstone_sand>, "Emits a redstone signal like a redstone block, and also falls like sand or gravel.");
+// i(<item:charm:sugar_block>, "Falls like sand or gravel, and dissolves into air if near water.");
+// i(<item:charm:netherite_nugget>, "Can be used to reset item repair cost in an anvil.");
 
 i(<item:environmental:koi_bucket>, "When near a Koi fish, players are given a Serenity effect, which prevents nearby mob spawns. Find these fish in Blossom Highlands.");
 i(<item:environmental:slabfish_bucket>, "Slabfish can be found in Swamps and Marshes, and tamed using Tropical Fish.");
@@ -727,7 +727,7 @@ i(<item:quark:chute>, "Can receive items with Hoppers and the like. Any items th
 // i(<item:supplementaries:bomb>, "Can be thrown, explodes on contact for explosive damage without breaking blocks.");
 // i(<item:supplementaries:raked_gravel>, "Can be gotten by using a Hoe on Gravel. Doing it from different directions creates unique patterns.");
 // i(<item:supplementaries:flower_box>, "Can be placed on the floor or the side of a block. Holds up to 3 flowers.");
-i(<item:minecraft:rotten_flesh>, "Can be used to turn a Skeleton Horse into a Zombie Horse, by feeding it an entire stack.");
+// i(<item:minecraft:rotten_flesh>, "Can be used to turn a Skeleton Horse into a Zombie Horse, by feeding it an entire stack.");
 // i(<item:supplementaries:slingshot>, "When used, fires the first block in your hotbar as a projectile. Try using it to throw torches!");
 
 // s = "Works like a normal wooden one when unpowered. When powered, ignores interactions.";
@@ -765,8 +765,8 @@ i(<item:berry_good:music_disc_fox>, "Can be acquired from Foxes, who randomly sp
 // i(<item:fish_in_planks:perch_barrel>, s);
 // i(<item:fish_in_planks:koi_barrel>, s);
 
-// i(<item:iron_and_gold:raw_iron>, "Drops from Iron Ore when mined without Silk Touch. Using Fortune increases the amount dropped.");
-// i(<item:iron_and_gold:raw_gold>, "Drops from Gold Ore when mined without Silk Touch. Using Fortune increases the amount dropped.");
+i(<item:cavesandcliffs:raw_iron>, "Drops from Iron Ore when mined without Silk Touch. Using Fortune increases the amount dropped.");
+i(<item:cavesandcliffs:raw_gold>, "Drops from Gold Ore when mined without Silk Touch. Using Fortune increases the amount dropped.");
 
 // i(<item:farsight_spyglasses:spyglass>, "Can be used to zoom in wherever you're looking at.");
 

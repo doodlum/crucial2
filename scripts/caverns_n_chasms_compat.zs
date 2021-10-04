@@ -169,13 +169,13 @@ btag.add(<block:caverns_and_chasms:dirt_tile_vertical_slab>);
 btag.add(<block:caverns_and_chasms:cobblestone_tile_vertical_slab>);
 btag.add(<block:caverns_and_chasms:mossy_cobblestone_tile_vertical_slab>);
 
-btag = <tag:blocks:windowlogging:windowable>;
-btag.add(<block:caverns_and_chasms:sugilite_brick_vertical_slab>);
-btag.add(<block:caverns_and_chasms:lapis_brick_vertical_slab>);
-btag.add(<block:caverns_and_chasms:dirt_brick_vertical_slab>);
-btag.add(<block:caverns_and_chasms:dirt_tile_vertical_slab>);
-btag.add(<block:caverns_and_chasms:cobblestone_tile_vertical_slab>);
-btag.add(<block:caverns_and_chasms:mossy_cobblestone_tile_vertical_slab>);
+// btag = <tag:blocks:windowlogging:windowable>;
+// btag.add(<block:caverns_and_chasms:sugilite_brick_vertical_slab>);
+// btag.add(<block:caverns_and_chasms:lapis_brick_vertical_slab>);
+// btag.add(<block:caverns_and_chasms:dirt_brick_vertical_slab>);
+// btag.add(<block:caverns_and_chasms:dirt_tile_vertical_slab>);
+// btag.add(<block:caverns_and_chasms:cobblestone_tile_vertical_slab>);
+// btag.add(<block:caverns_and_chasms:mossy_cobblestone_tile_vertical_slab>);
 
 // JEI DOCUMENTATION ======================
 

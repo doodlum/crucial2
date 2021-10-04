@@ -35,12 +35,12 @@ blastFurnace.removeRecipe(<item:create:zinc_ingot>);
 <recipetype:create:mixing>.addRecipe("quartz_crushed_brass", "heated", <item:create:crushed_brass> * 2, [<item:create:crushed_copper_ore>, <item:minecraft:quartz>]);
 
 // Raw Ores =======================================================================================
-craftingTable.addShaped("raw_copper_compact", <item:cavesandcliffs:raw_copper_block>, [[<item:cavesandcliffs:raw_copper>, <item:cavesandcliffs:raw_copper>, <item:cavesandcliffs:raw_copper>], [<item:cavesandcliffs:raw_copper>, <item:cavesandcliffs:raw_copper>, <item:cavesandcliffs:raw_copper>], [<item:cavesandcliffs:raw_copper>, <item:cavesandcliffs:raw_copper>, <item:cavesandcliffs:raw_copper>]]);
-craftingTable.addShapeless("raw_copper_uncompact", <item:cavesandcliffs:raw_copper> * 9, [<item:cavesandcliffs:raw_copper_block>]);
+// craftingTable.addShaped("raw_copper_compact", <item:cavesandcliffs:raw_copper_block>, [[<item:cavesandcliffs:raw_copper>, <item:cavesandcliffs:raw_copper>, <item:cavesandcliffs:raw_copper>], [<item:cavesandcliffs:raw_copper>, <item:cavesandcliffs:raw_copper>, <item:cavesandcliffs:raw_copper>], [<item:cavesandcliffs:raw_copper>, <item:cavesandcliffs:raw_copper>, <item:cavesandcliffs:raw_copper>]]);
+// craftingTable.addShapeless("raw_copper_uncompact", <item:cavesandcliffs:raw_copper> * 9, [<item:cavesandcliffs:raw_copper_block>]);
 JEI.addInfo(<item:cavesandcliffs:raw_copper>, ["Drops from Copper Ore when mined without Silk Touch. Using Fortune increases the amount dropped."]);
 
-furnace.addRecipe("raw_copper_smelting", <item:create:copper_ingot>, <item:cavesandcliffs:raw_copper>, 0.1, 200);
-blastFurnace.addRecipe("raw_copper_blasting", <item:create:copper_ingot>, <item:cavesandcliffs:raw_copper>, 0.1, 100);
+// furnace.addRecipe("raw_copper_smelting", <item:create:copper_ingot>, <item:cavesandcliffs:raw_copper>, 0.1, 200);
+// blastFurnace.addRecipe("raw_copper_blasting", <item:create:copper_ingot>, <item:cavesandcliffs:raw_copper>, 0.1, 100);
 
 <recipetype:create:milling>.addRecipe("raw_iron_milling", [<item:create:crushed_iron_ore>], <item:cavesandcliffs:raw_iron>);
 <recipetype:create:milling>.addRecipe("raw_gold_milling", [<item:create:crushed_gold_ore>], <item:cavesandcliffs:raw_gold>);
@@ -780,13 +780,6 @@ craftingTable.removeRecipe(<item:create:copper_ingot>);
 
 furnace.removeRecipe(<item:create:copper_ingot>);
 blastFurnace.removeRecipe(<item:create:copper_ingot>);
-
-JEI.hideItem(<item:create:copper_ore>);
-JEI.hideItem(<item:create:copper_block>);
-JEI.hideItem(<item:create:copper_shingles>);
-JEI.hideItem(<item:create:copper_tiles>);
-JEI.hideItem(<item:create:copper_ingot>);
-
 
 // Tagging ========================================================================================
 var tag = <tag:items:crucial:categories/building_blocks>;

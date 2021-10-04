@@ -3,13 +3,13 @@ var cooking = <recipetype:farmersdelight:cooking>;
 
 craftingTable.removeRecipe(<item:environmental:apple_pie>);
 
-craftingTable.removeByName("minecraft:yellow_dye_from_sunflower");
+// craftingTable.removeByName("minecraft:yellow_dye_from_sunflower");
 
-craftingTable.removeByName("charm:extra_recipes/trident");
-craftingTable.removeByName("charm:extra_recipes/soul_torch");
-craftingTable.removeByName("charm:extra_recipes/green_dye");
-craftingTable.removeByName("charm:extra_recipes/gilded_blackstone");
-craftingTable.removeByName("charm:extra_recipes/cyan_dye");
+// craftingTable.removeByName("charm:extra_recipes/trident");
+// craftingTable.removeByName("charm:extra_recipes/soul_torch");
+// craftingTable.removeByName("charm:extra_recipes/green_dye");
+// craftingTable.removeByName("charm:extra_recipes/gilded_blackstone");
+// craftingTable.removeByName("charm:extra_recipes/cyan_dye");
 
 // craftingTable.removeRecipe(<item:atmospheric:passionfruit_sorbet>);
 
@@ -416,7 +416,7 @@ tag.remove(<item:quark:red_blossom_sapling>);
 // craftingTable.removeRecipe(<item:infernalexp:basalt_cobbled_vertical_slab>);
 // furnace.removeRecipe(<item:infernalexp:basalt_cobbled>);
 
-furnace.removeRecipe(<item:charm:smooth_glowstone>);
+// furnace.removeRecipe(<item:charm:smooth_glowstone>);
 
 // craftingTable.removeRecipe(<item:storagedrawers:acacia_full_drawers_1>);
 // craftingTable.removeRecipe(<item:storagedrawers:acacia_full_drawers_2>);
@@ -506,13 +506,13 @@ furnace.removeRecipe(<item:charm:smooth_glowstone>);
 // craftingTable.removeRecipe(<item:supplementaries:flint_block>);
 // craftingTable.removeRecipe(<item:supplementaries:feather_block>);
 
-furnace.removeRecipe(<item:charm:refined_obsidian>);
-craftingTable.removeRecipe(<item:charm:refined_obsidian_stairs>);
-craftingTable.removeRecipe(<item:charm:refined_obsidian_slab>);
-craftingTable.removeRecipe(<item:charm:refined_obsidian_wall>);
-stoneCutter.removeRecipe(<item:charm:refined_obsidian_stairs>);
-stoneCutter.removeRecipe(<item:charm:refined_obsidian_slab>);
-stoneCutter.removeRecipe(<item:charm:refined_obsidian_wall>);
+// furnace.removeRecipe(<item:charm:refined_obsidian>);
+// craftingTable.removeRecipe(<item:charm:refined_obsidian_stairs>);
+// craftingTable.removeRecipe(<item:charm:refined_obsidian_slab>);
+// craftingTable.removeRecipe(<item:charm:refined_obsidian_wall>);
+// stoneCutter.removeRecipe(<item:charm:refined_obsidian_stairs>);
+// stoneCutter.removeRecipe(<item:charm:refined_obsidian_slab>);
+// stoneCutter.removeRecipe(<item:charm:refined_obsidian_wall>);
 
 var tag_carpets = <tag:items:minecraft:carpets>;
 tag_carpets.remove(<item:farmersdelight:full_tatami_mat>);
