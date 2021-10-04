@@ -33,6 +33,11 @@ Packs:
 	PingColorIndicator
 	WitherHearts
 	BlackstoneBG
+	BedrockTitle
+	BedrockPistonArms
+	BedrockExplosion
+	BedrockDriedKelpItem
+	BedrockMapItem
 	BedrockDragonProjectile
 	JappaCompass
 	JappaClock
