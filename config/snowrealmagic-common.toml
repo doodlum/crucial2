@@ -1,4 +1,4 @@
-placeSnowInBlock = true
+placeSnowInBlock = false
 snowGravity = true
 snowAlwaysReplaceable = true
 #Unavailable if TerraForged mod installed
